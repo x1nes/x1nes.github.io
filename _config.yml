@@ -11,6 +11,9 @@ author: x1nes
 language: zh-TW
 timezone:
 
+server:
+  port: 8001
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://x1nes.github.io

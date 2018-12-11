@@ -25,7 +25,7 @@
     "live2d-widget-model-wanko": "^1.0.5"
   },
   "scripts": {
-    "start" : "hexo s",
+    "start": "hexo s",
     "deploy": "hexo d -g"
   }
 }
