@@ -16,7 +16,7 @@ server:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://x1nes.github.io
+url: https://x1nes.github.io/blog
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -82,8 +82,8 @@ theme: material
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/x1nes/x1nes.github.io
-  branch: master
+  repo: https://github.com/x1nes/blog
+  branch: gh-pages
 
 live2d:
     enable: true

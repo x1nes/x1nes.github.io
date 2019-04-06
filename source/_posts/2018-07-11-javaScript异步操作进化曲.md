@@ -3,7 +3,7 @@ title: javaScript异步操作进化曲
 date: 2018-07-11 21:54:30
 tags: javaScript
 ---
-> 老生常谈，今天也来跟风总结下`javaScript` 中异步操作的历史。
+> 老生常谈，今天也来总结下`javaScript` 中异步操作的历史。
 
 *TL;DR*  
 1.同步和异步区别  
