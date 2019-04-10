@@ -16,9 +16,17 @@ Processing是一种具有革命前瞻性的新兴计算机语言，它的概念�
 
 下面贴几张大佬们用processing做的艺术品，希望自己也可以做出这样水平的作品出来。
 
-![processing1](/img/processing作品1.PNG)
+![img](https://wx3.sinaimg.cn/mw1024/bca3c023gy1g1xw3d8sggj20b4069jse.jpg)
 
-![processing2](/img//processing作品2.PNG)
+​                                                                                                                          视频中两个酷炫图形过渡
+
+![img](https://wx2.sinaimg.cn/mw1024/bca3c023gy1g1xw3d8nq8j20go0610tx.jpg)
+
+​                                                                                                                     旋转（rotate）、随机（random）
+
+![img](https://wx1.sinaimg.cn/mw1024/bca3c023gy1g1xw3d8kbzj20go09d3ze.jpg)
+
+​                                                                                                                              加上颜色酷炫的随机和旋转
 
 ## processing.js
 processing.js是一个javascript实现的canvas绘图库,他的作用就是把processing的代码翻译成javascript代码,从而实现在浏览器里面使用processing绘图.  
@@ -32,5 +40,5 @@ processing.js是一个javascript实现的canvas绘图库,他的作用就是把pr
 <canvas data-processing-sources="hello-web.pde"></canvas>
 ```
 
-最后,canvas里就出现了你在.pde里绘制的图像了.
+最后,canvas里就出现了你在.pde里绘制的图像了。
 	
