@@ -70,10 +70,10 @@ background:
 
 # Images Settings
 img:
-    logo: "/img/logo.png"
+    logo: "/img/logo.jpg"
     avatar: "/img/avatar.jpeg"
-    daily_pic: "/img/daily_pic.png"
-    sidebar_header: "/img/sidebar_header.png"
+    daily_pic: "/img/daily_pic.jpg"
+    sidebar_header: "/img/sidebar_header.jpg"
     random_thumbnail: "/img/random/material-"
     footer_image:
         #upyun_logo:
@@ -212,8 +212,12 @@ sidebar:
         divider: false
     pages:
         关于我:
-            link: "about"
+            link: "/blog/about"
             icon: person
+            divider: false
+        相册:
+            link: "/blog/gallery"
+            icon: camera
             divider: false
     article_num:
         use: false
