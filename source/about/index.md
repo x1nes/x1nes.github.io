@@ -19,7 +19,7 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 
   ------
 
-- My name is **`xinmin zhao`** ,post-90::boy:.
+- My name is **`xinmin zhao`** ,post-90:boy:.
 
 - Graduated from **`JiangNan University`** (Digital Media Technology) in 2016,as a developer:computer:.
 
@@ -42,6 +42,14 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 基于`hexo`:clap::clap:强力支持
 
 博客内容主要记录前端相关的知识和转载一些优质博文，基于`github-pages`服务。
+
+**TODO**：
+
+- [x] 添加语法高亮
+- [x] 添加`emoji`
+- [ ] 添加评论功能
+- [ ] 添加站内搜索
+- [ ] 皮肤功能
 
 
 
