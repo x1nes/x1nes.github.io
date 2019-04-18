@@ -7,7 +7,7 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 
 ## *关于我* 
 
-- 我的名字是**赵新民**，90后:boy:。
+- 我的名字是**x1nes**，90后:boy:。
 
 - 2016年从**江南大学**(数字媒体技术专业)毕业，从事开发岗位:computer:。
 
@@ -19,7 +19,7 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 
   ------
 
-- My name is **`xinmin zhao`** ,post-90:boy:.
+- My name is **`x1nes`** ,post-90:boy:.
 
 - Graduated from **`JiangNan University`** (Digital Media Technology) in 2016,as a developer:computer:.
 
