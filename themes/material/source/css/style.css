@@ -538,11 +538,11 @@ a {
     display: flex;
     box-sizing: border-box;
     padding: 24.72px;
-    background-size: cover;
     cursor: pointer;
     flex-grow: 1;
     flex-direction: row;
-    align-items: flex-end
+    align-items: flex-end;
+    background-size: auto;
 }
 #scheme-Paradox .material-layout .mdl-card__media a,
 #scheme-Paradox .material-layout .mdl-card__title a {

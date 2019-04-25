@@ -7,6 +7,10 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 
 ## *关于我* 
 
+<del>我是编码时长两年半的代码搬运工，喜欢唱，跳，rap和篮球. music~ </del>
+
+ **不好意思走错片场了：）**
+
 - 我的名字是**x1nes**，90后:boy:。
 
 - 2016年从**江南大学**(数字媒体技术专业)毕业，从事开发岗位:computer:。
@@ -15,19 +19,8 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 
 - 熟练前端技术，`react`技术栈，熟悉`java`后端开发。会用`python` 写脚本。
 
-- 熟悉`git`，`svn`,，`linux`,，`wireshark`，`postman`基本操作,熟悉`http`协议。
+- 熟悉`git`，`svn`，`linux`，`wireshark`，`postman`基本操作,熟悉`http`协议。
 
-  ------
-
-- My name is **`x1nes`** ,post-90:boy:.
-
-- Graduated from **`JiangNan University`** (Digital Media Technology) in 2016,as a developer:computer:.
-
-- Passion for technology, and like to study new things.
-
-- Familiar with front-end technology,such as `react`,also now something about `java`,`python`.
-
-- Familiar with front-end technology, familiar with `git`, `svn`, `linux`, `wireshark`, `postman`, `http`.
 
 ##### 项目经历
 
@@ -47,7 +40,7 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 
 - [x] 添加语法高亮
 - [x] 添加`emoji`
-- [x] 添加评论功能
+- [x] 添加评论功能,基於`disqus`第三方服务,需要翻墙才可以使用哦
 - [x] 添加站内搜索
 - [ ] 皮肤功能
 
