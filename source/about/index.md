@@ -7,7 +7,7 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 
 ## *关于我* 
 
-<del>我是编码时长两年半的代码搬运工，喜欢唱，跳，rap和篮球. music~ </del>
+<del>大家好，我是编码时长两年半的代码搬运工，喜欢唱，跳，rap和篮球. music~ </del>
 
  **不好意思走错片场了：）**
 
@@ -20,11 +20,6 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 - 熟练前端技术，`react`技术栈，熟悉`java`后端开发。会用`python` 写脚本。
 
 - 熟悉`git`，`svn`，`linux`，`wireshark`，`postman`基本操作,熟悉`http`协议。
-
-
-##### 项目经历
-
-##### 个人项目 
 
 
 
