@@ -1,4 +1,6 @@
 ---
+
+
 title: wtf wtf wtf!!
 date: 2019-04-18 20:26:02
 tags:
@@ -71,7 +73,36 @@ if (...) {
 
 线上代码，在验证客户提交的excel文件的时候，要验证每一行数据在配置文件里的规则是否合理，之前的同事写了个函数`check`，但是却把读取配置文件的步骤也写在这个函数里面，导致遍历客户上传的数据，每验证一行数据都要重新读取一下配置文件。
 
+### 命名不清晰
 
+这里提供一个好的命名方案
+
+##### 有表现力的词
+
+| 单词  | 更多选择                                           |
+| ----- | -------------------------------------------------- |
+| send  | deliver、dispatch、announce、distribute、route     |
+| find  | search、extract、locate、recover                   |
+| start | launch、create、begin、open                        |
+| make  | create、set up、build、generate、compose、add、new |
+
+##### 带单位的命名
+
+| 参数或变量                    | 带单位的命名          |
+| ----------------------------- | --------------------- |
+| start(int delay)              | delay -> delaySecs    |
+| createCache(int size)         | size -> sizeMB \|     |
+| throttleDownload(float limit) | limit -> maxKB        |
+| setHeight(float height)       | height -> heightCM \| |
+
+##### 给名字附加额外信息
+
+| 场景                                   | 变量名   | 更好的名字           |
+| -------------------------------------- | -------- | -------------------- |
+| 一个纯文本的密码，需要加密后才可以使用 | password | plaintextPassword \| |
+| 一条用户评论，需要转义后显示           | comment  | unescapedComment     |
+| 已转化为UTF-8的HTML文本                | html     | htmlUtf8             |
+| 以"URL"方式编码的输入数据              | data     | dataURLEncode \|     |
 
 ### 不懂语言内置函数
 
