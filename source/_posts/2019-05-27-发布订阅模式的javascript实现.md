@@ -31,6 +31,10 @@ var button = document.getElementById("button")
 button.addEventListener('click',() => {alert('click')},false)
 ```
 
+这样的写法好处很明显，分离事件触发和事件内容解耦。
+
+
+
 在`node`里面，还有`EventEmitter`这个类，用来实现发布订阅模式，来处理不同对象之间的事件调用。
 
 ```javascript
@@ -45,15 +49,107 @@ myEventEmitter.emit("event")
 // target this event
 ```
 
-
+我之前用`BackBone`构建单页面应用的时候，就广泛用到了发布订阅模式处理不同组件之间的数据交互，但是这种方法如果滥用，会造成事件交互逻辑的不清晰，所以，父子组件数据交互还是推荐用回调的方式来做。
 
 ### 怎么实现`eventEmitter`
 
-下面是简单实现`eventEmitter`的`javaScript`代码，配有详细的注释
+下面是简单实现`eventEmitter`的`javaScript`代码
 
 ```javascript
+function EventEmitter() {
+    this._event = {}
+    this.maxListenerNum = 10
+}
 
+EventEmitter.prototype.on = function(type,callback) {
+    if(typeof callback !== "function") {
+        throw new TypeError('callback must be a function')
+    }
+    if(!this._event) {
+        this._event = Object.create(null) // 这里判断不存在就生成一个，如果是继承的，不会继承这个 _event
+    }
+
+    if(this._event[type] ) {
+        if(this._event[type.length > this.maxListenerNum] ) {
+            throw new Error("too long")
+        }
+        this._event[type].push(callback)
+    } else {
+        this._event[type] = [callback]
+    }
+}
+
+
+EventEmitter.prototype.once = function (type,callback) {
+    let warp = (...args) => {
+        callback(...args)
+        this.removeListener(type,warp)
+    }
+    warp.flag = callback
+    this.on(type,warp)
+}
+
+EventEmitter.prototype.removeListener = function(type,callback)  {
+    if(this._event[type] ) {
+        this._event[type].splice(this._event[type].indexOf(callback),1)
+    }
+}
+
+EventEmitter.prototype.removeListeners = function(type){
+    this._event[type] = null
+}
+
+EventEmitter.prototype.emit = function(type,...args) {
+    if(this._event[type]) {
+        this._event[type].forEach(fn => {
+            fn(...args)
+        });
+    }
+
+}
+```
+
+测试代码
+
+```javascript
+var my = new EventEmitter
+
+my.on('a',(a) => {
+    console.log(a);
+})
+
+
+my.once('once', (a) => {
+    console.log(a);
+})
+
+let add = (a,b) => {
+    console.log(a+b); 
+}
+my.on('b',add)
+my.emit('a',1)
+my.emit('a',2)
+my.emit('b',1,2)
+my.emit('once',1)
+my.emit('once',2)
+my.removeListeners('a')
+my.emit('a',1)
+my.removeListener('b')
+my.emit('b',1,2)
+
+/* 输出
+1
+2
+3
+1
+*/
 ```
 
 
+
+参考：
+
+1.[https://zh.wikipedia.org/zh-hans/%E5%8F%91%E5%B8%83/%E8%AE%A2%E9%98%85](https://zh.wikipedia.org/zh-hans/发布/订阅)
+
+2.<https://segmentfault.com/a/1190000015762318>
 
