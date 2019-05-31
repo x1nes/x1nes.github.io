@@ -187,7 +187,7 @@ are-we-there-yet@~1.1.2:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
 
-argparse@^1.0.7:
+argparse@^1.0.7, argparse@~1.0.3:
   version "1.0.10"
   resolved "http://registry.npm.taobao.org/argparse/download/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
   dependencies:
@@ -828,6 +828,10 @@ ejs@^2.3.4:
   version "2.6.1"
   resolved "http://registry.npm.taobao.org/ejs/download/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
 
+emoji@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.npm.taobao.org/emoji/download/emoji-0.3.2.tgz#4a1723cbbccf91804257da63cfaf00b5337fe604"
+
 encodeurl@~1.0.1, encodeurl@~1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/encodeurl/download/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
@@ -1081,10 +1085,6 @@ get-proxy@^2.1.0:
   resolved "http://registry.npm.taobao.org/get-proxy/download/get-proxy-2.1.0.tgz#349f2b4d91d44c4d4d4e9cba2ad90143fac5ef93"
   dependencies:
     npm-conf "^1.1.0"
-
-get-stdin@^4.0.1:
-  version "4.0.1"
-  resolved "http://registry.npm.taobao.org/get-stdin/download/get-stdin-4.0.1.tgz#b968c6b0a04384324902e8bf1a5df32579a450fe"
 
 get-stdin@^6.0.0:
   version "6.0.0"
@@ -1358,6 +1358,13 @@ hexo-generator-index@^0.2.1:
     hexo-pagination "0.0.2"
     object-assign "^4.0.1"
 
+hexo-generator-search@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.npm.taobao.org/hexo-generator-search/download/hexo-generator-search-2.4.0.tgz#f5abbbbbe35299f52c2554bb89845d0a4fab6c9b"
+  dependencies:
+    nunjucks "^3.0.1"
+    utils-merge "^1.0.0"
+
 hexo-generator-sitemap@^1.2.0:
   version "1.2.0"
   resolved "http://registry.npm.taobao.org/hexo-generator-sitemap/download/hexo-generator-sitemap-1.2.0.tgz#3018f8d7d1e2e42b3f71a65a7316ffcf583bc3f3"
@@ -1413,14 +1420,18 @@ hexo-renderer-ejs@^0.3.0:
     ejs "^2.3.4"
     object-assign "^4.0.1"
 
-hexo-renderer-marked@^0.2.11:
-  version "0.2.11"
-  resolved "http://registry.npm.taobao.org/hexo-renderer-marked/download/hexo-renderer-marked-0.2.11.tgz#32fd3880d3c3979fd7b8015ec121a6c44ff49f84"
+hexo-renderer-markdown-it@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.npm.taobao.org/hexo-renderer-markdown-it/download/hexo-renderer-markdown-it-3.4.1.tgz#d409a44c9b2c1b331ed2e6f374901f985ce7231c"
   dependencies:
-    hexo-util "^0.6.0"
-    marked "^0.3.5"
-    object-assign "^4.1.0"
-    strip-indent "^1.0.1"
+    lodash.assign "^3.2.0"
+    markdown-it "^5.0.1"
+    markdown-it-abbr "^1.0.0"
+    markdown-it-footnote "^2.0.0"
+    markdown-it-ins "^2.0.0"
+    markdown-it-sub "^1.0.0"
+    markdown-it-sup "^1.0.0"
+    sluggo "^0.2.0"
 
 hexo-renderer-stylus@^0.3.3:
   version "0.3.3"
@@ -1868,6 +1879,16 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
+linkify-it@~1.2.0:
+  version "1.2.4"
+  resolved "https://registry.npm.taobao.org/linkify-it/download/linkify-it-1.2.4.tgz#0773526c317c8fd13bd534ee1d180ff88abf881a"
+  dependencies:
+    uc.micro "^1.0.1"
+
+live2d-widget-model-miku@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npm.taobao.org/live2d-widget-model-miku/download/live2d-widget-model-miku-1.0.5.tgz#49a0b7b4bbc371e36b75cf62d745933e7bcf108b"
+
 live2d-widget-model-wanko@^1.0.5:
   version "1.0.5"
   resolved "http://registry.npm.taobao.org/live2d-widget-model-wanko/download/live2d-widget-model-wanko-1.0.5.tgz#2833486bc76528ce37e7e04fdbbe623191e03953"
@@ -1885,6 +1906,45 @@ locate-path@^3.0.0:
   dependencies:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
+
+lodash._baseassign@^3.0.0:
+  version "3.2.0"
+  resolved "https://registry.npm.taobao.org/lodash._baseassign/download/lodash._baseassign-3.2.0.tgz#8c38a099500f215ad09e59f1722fd0c52bfe0a4e"
+  dependencies:
+    lodash._basecopy "^3.0.0"
+    lodash.keys "^3.0.0"
+
+lodash._basecopy@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/lodash._basecopy/download/lodash._basecopy-3.0.1.tgz#8da0e6a876cf344c0ad8a54882111dd3c5c7ca36"
+
+lodash._bindcallback@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.npm.taobao.org/lodash._bindcallback/download/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
+
+lodash._createassigner@^3.0.0:
+  version "3.1.1"
+  resolved "https://registry.npm.taobao.org/lodash._createassigner/download/lodash._createassigner-3.1.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash._createassigner%2Fdownload%2Flodash._createassigner-3.1.1.tgz#838a5bae2fdaca63ac22dee8e19fa4e6d6970b11"
+  dependencies:
+    lodash._bindcallback "^3.0.0"
+    lodash._isiterateecall "^3.0.0"
+    lodash.restparam "^3.0.0"
+
+lodash._getnative@^3.0.0:
+  version "3.9.1"
+  resolved "https://registry.npm.taobao.org/lodash._getnative/download/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
+
+lodash._isiterateecall@^3.0.0:
+  version "3.0.9"
+  resolved "https://registry.npm.taobao.org/lodash._isiterateecall/download/lodash._isiterateecall-3.0.9.tgz#5203ad7ba425fae842460e696db9cf3e6aac057c"
+
+lodash.assign@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npm.taobao.org/lodash.assign/download/lodash.assign-3.2.0.tgz#3ce9f0234b4b2223e296b8fa0ac1fee8ebca64fa"
+  dependencies:
+    lodash._baseassign "^3.0.0"
+    lodash._createassigner "^3.0.0"
+    lodash.keys "^3.0.0"
 
 lodash.assignin@^4.0.9:
   version "4.2.0"
@@ -1910,6 +1970,22 @@ lodash.foreach@^4.3.0:
   version "4.5.0"
   resolved "http://registry.npm.taobao.org/lodash.foreach/download/lodash.foreach-4.5.0.tgz#1a6a35eace401280c7f06dddec35165ab27e3e53"
 
+lodash.isarguments@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/lodash.isarguments/download/lodash.isarguments-3.1.0.tgz#2f573d85c6a24289ff00663b491c1d338ff3458a"
+
+lodash.isarray@^3.0.0:
+  version "3.0.4"
+  resolved "https://registry.npm.taobao.org/lodash.isarray/download/lodash.isarray-3.0.4.tgz#79e4eb88c36a8122af86f844aa9bcd851b5fbb55"
+
+lodash.keys@^3.0.0:
+  version "3.1.2"
+  resolved "https://registry.npm.taobao.org/lodash.keys/download/lodash.keys-3.1.2.tgz#4dbc0472b156be50a0b286855d1bd0b0c656098a"
+  dependencies:
+    lodash._getnative "^3.0.0"
+    lodash.isarguments "^3.0.0"
+    lodash.isarray "^3.0.0"
+
 lodash.map@^4.4.0:
   version "4.6.0"
   resolved "http://registry.npm.taobao.org/lodash.map/download/lodash.map-4.6.0.tgz#771ec7839e3473d9c4cde28b19394c3562f4f6d3"
@@ -1929,6 +2005,10 @@ lodash.reduce@^4.4.0:
 lodash.reject@^4.4.0:
   version "4.6.0"
   resolved "http://registry.npm.taobao.org/lodash.reject/download/lodash.reject-4.6.0.tgz#80d6492dc1470864bbf583533b651f42a9f52415"
+
+lodash.restparam@^3.0.0:
+  version "3.6.1"
+  resolved "https://registry.npm.taobao.org/lodash.restparam/download/lodash.restparam-3.6.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash.restparam%2Fdownload%2Flodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
 
 lodash.some@^4.4.0:
   version "4.6.0"
@@ -1973,19 +2053,53 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+markdown-it-abbr@^1.0.0:
+  version "1.0.4"
+  resolved "https://registry.npm.taobao.org/markdown-it-abbr/download/markdown-it-abbr-1.0.4.tgz#d66b5364521cbb3dd8aa59dadfba2fb6865c8fd8"
+
+markdown-it-emoji@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-emoji/download/markdown-it-emoji-1.4.0.tgz#9bee0e9a990a963ba96df6980c4fddb05dfb4dcc"
+
+markdown-it-footnote@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-footnote/download/markdown-it-footnote-2.0.0.tgz#14e9c4f68ff12cf354fa365ae378276e8104ca94"
+
+markdown-it-ins@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-ins/download/markdown-it-ins-2.0.0.tgz#a5aa6a30f1e2f71e9497567cfdff40f1fde67483"
+
+markdown-it-sub@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-sub/download/markdown-it-sub-1.0.0.tgz#375fd6026eae7ddcb012497f6411195ea1e3afe8"
+
+markdown-it-sup@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-sup/download/markdown-it-sup-1.0.0.tgz#cb9c9ff91a5255ac08f3fd3d63286e15df0a1fc3"
+
+markdown-it@^5.0.1:
+  version "5.1.0"
+  resolved "https://registry.npm.taobao.org/markdown-it/download/markdown-it-5.1.0.tgz#25286b8465bac496f3f1b77eed544643e9bd718d"
+  dependencies:
+    argparse "~1.0.3"
+    entities "~1.1.1"
+    linkify-it "~1.2.0"
+    mdurl "~1.0.1"
+    uc.micro "^1.0.0"
+
 markdown@~0.5.0:
   version "0.5.0"
   resolved "http://registry.npm.taobao.org/markdown/download/markdown-0.5.0.tgz#28205b565a8ae7592de207463d6637dc182722b2"
   dependencies:
     nopt "~2.1.1"
 
-marked@^0.3.5:
-  version "0.3.19"
-  resolved "http://registry.npm.taobao.org/marked/download/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
-
 math-random@^1.0.1:
   version "1.0.4"
   resolved "http://registry.npm.taobao.org/math-random/download/math-random-1.0.4.tgz#5dd6943c938548267016d4e34f057583080c514c"
+
+mdurl@~1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/mdurl/download/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
 
 micromatch@^2.1.5:
   version "2.3.11"
@@ -2329,7 +2443,7 @@ nunjucks@^2.3.0:
     chokidar "^1.6.0"
     yargs "^3.32.0"
 
-nunjucks@^3.0.0, nunjucks@^3.1.2:
+nunjucks@^3.0.0, nunjucks@^3.0.1, nunjucks@^3.1.2:
   version "3.2.0"
   resolved "http://registry.npm.taobao.org/nunjucks/download/nunjucks-3.2.0.tgz#53e95f43c9555e822e8950008a201b1002d49933"
   dependencies:
@@ -2905,6 +3019,10 @@ sisteransi@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/sisteransi/download/sisteransi-1.0.0.tgz#77d9622ff909080f1c19e5f4a1df0c1b0a27b88c"
 
+sluggo@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/sluggo/download/sluggo-0.2.0.tgz#5d0bcb28d70c8c1eee773feec626d15189689cbf"
+
 snapdragon-node@^2.0.1:
   version "2.1.1"
   resolved "http://registry.npm.taobao.org/snapdragon-node/download/snapdragon-node-2.1.1.tgz#6c175f86ff14bdb0724563e8f3c1b021a286853b"
@@ -3042,12 +3160,6 @@ strip-eof@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/strip-eof/download/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
 
-strip-indent@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.npm.taobao.org/strip-indent/download/strip-indent-1.0.1.tgz#0c7962a6adefa7bbd4ac366460a638552ae1a0a2"
-  dependencies:
-    get-stdin "^4.0.1"
-
 strip-indent@^2.0.0:
   version "2.0.0"
   resolved "http://registry.npm.taobao.org/strip-indent/download/strip-indent-2.0.0.tgz#5ef8db295d01e6ed6cbf7aab96998d7822527b68"
@@ -3180,6 +3292,10 @@ to-regex@^3.0.1, to-regex@^3.0.2:
 trim-right@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/trim-right/download/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
+
+uc.micro@^1.0.0, uc.micro@^1.0.1:
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/uc.micro/download/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
 
 uglify-js@2.6.0:
   version "2.6.0"
