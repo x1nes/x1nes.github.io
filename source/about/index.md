@@ -10,7 +10,7 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
   **大家好，我是编码时长两年半的代码搬运工，喜欢唱，跳，rap和篮球。 music~**
 
  **不好意思：）**
- ![gif](/blog/img/oT1JGQjh.gif)
+ ![gif](/img/oT1JGQjh.gif)
 
 - 我的名字是**x1nes**，90后，有一双技术的手和渴望艺术的心。
 
