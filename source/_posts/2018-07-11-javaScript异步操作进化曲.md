@@ -4,7 +4,7 @@ date: 2018-07-11 21:54:30
 tags:
     - js
     - promise
-thumbnail: /blog/img/random/promise.png
+thumbnail: /img/random/promise.png
 ---
 > 老生常谈，今天也来总结下`javaScript` 中异步操作的历史。
 
