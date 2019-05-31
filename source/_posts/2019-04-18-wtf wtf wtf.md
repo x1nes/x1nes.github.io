@@ -5,7 +5,7 @@ title: wtf wtf wtf!!
 date: 2019-04-18 20:26:02
 tags:
     - tucao
-thumbnail: /blog/img/random/wtf.png
+thumbnail: /img/random/wtf.png
 
 ---
 
