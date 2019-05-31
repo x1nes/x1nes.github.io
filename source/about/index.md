@@ -29,7 +29,7 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
   从业3年，前后端都有接触过，写过基于`java`,`python`的后端代码，到后来，发现自己更喜欢前端的技术环境。
   19年的目标：
   1. 写一个小程序[已完成]
-  ![](https://wx2.sinaimg.cn/orj360/bca3c023gy1g3in6t145pj207607675g.jpg)
+  ![qrcode](https://wx2.sinaimg.cn/orj360/bca3c023gy1g3in6t145pj207607675g.jpg)
   额，样式还是太简单了，后续还要美化一下- - ！。
   2. 读书计划[进行中]
   今年的书单是《javascript函数式编程指南》，《计算机程序的构造和解释》。重点是后一本，王垠博客里介绍的关于`lisp`的
