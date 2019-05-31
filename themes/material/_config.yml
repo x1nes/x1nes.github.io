@@ -212,11 +212,11 @@ sidebar:
         divider: false
     pages:
         关于我:
-            link: "/blog/about"
+            link: "/about"
             icon: person
             divider: false
         相册:
-            link: "/blog/gallery"
+            link: "/gallery"
             icon: camera
             divider: false
     article_num:
