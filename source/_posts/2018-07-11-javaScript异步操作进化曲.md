@@ -1,10 +1,11 @@
 ---
 title: javaScript异步操作进化曲
-date: 2018-07-11 21:54:30
 tags:
-    - js
-    - promise
+  - js
+  - promise
 thumbnail: /img/random/promise.png
+abbrlink: 2b77e8c0
+date: 2018-07-11 21:54:30
 ---
 > 老生常谈，今天也来总结下`javaScript` 中异步操作的历史。
 
