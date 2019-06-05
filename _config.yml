@@ -136,3 +136,8 @@ sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+friend:
+    - 
+      href: http://www.baidu.com
+      title: 百度（测试）           
