@@ -42,7 +42,7 @@ tags:
 
 关于更精确的资料请查看`mdn`官方文档。
 
-[Performance]: https://developer.mozilla.org/zh-CN/docs/Web/API/Performance	"mdn"
+[Performance](https://developer.mozilla.org/zh-CN/docs/Web/API/Performance)	
 
 ### 如何根据`Performance.timing`获取加载时间
 
@@ -52,8 +52,8 @@ tags:
 
 这里有几篇非常详细的文章（最起码是我遇到的最详细的，如果你看到过更详细的，或者还有其他补充，请在下方留言，万分感谢:kissing_smiling_eyes: ），介绍了这个流程。
 
-[从输入URL到页面加载发生了什么]: https://segmentfault.com/a/1190000006879700	"url到展示"
-[浏览器的工作原理：新式网络浏览器幕后揭秘]: https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/	"原理"
+[从输入URL到页面加载发生了什么](https://segmentfault.com/a/1190000006879700)
+[浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)	
 
 也就是说，你最起码要知道`dns`解析，`http`请求，页面渲染等认识。
 
