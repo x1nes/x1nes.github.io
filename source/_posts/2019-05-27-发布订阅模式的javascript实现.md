@@ -1,8 +1,9 @@
 ---
 title: 发布订阅模式的javascript实现
-date: 2019-05-27 11:20:25
 tags:
-    - javaScript
+  - javaScript
+abbrlink: 4ec38d83
+date: 2019-05-27 11:20:25
 ---
 
 ### 发布订阅模式

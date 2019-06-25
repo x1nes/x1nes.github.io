@@ -4,6 +4,7 @@ layout: post
 tags: javaScript
 category: code
 comments: true
+abbrlink: 6cf112d6
 ---
 > 在平时的工作中，一些前端的工作，经常要用的到javaScript，而且现在自己正在学习react.js和node.js,所以现在把自己平时遇到的写代码猜到的一些坑记录下来，此篇文章会随时更新。
 

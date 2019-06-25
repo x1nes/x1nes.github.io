@@ -1,12 +1,10 @@
 ---
-
-
 title: wtf wtf wtf!!
-date: 2019-04-18 20:26:02
 tags:
-    - tucao
+  - tucao
 thumbnail: /img/random/wtf.png
-
+abbrlink: 68922dda
+date: 2019-04-18 20:26:02
 ---
 
 

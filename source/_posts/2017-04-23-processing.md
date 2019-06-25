@@ -1,9 +1,10 @@
 ---
 layout: post
 title: processing-小白也可以做艺术家
-tags: processing 
+tags: processing
 categories: code
 comments: true
+abbrlink: e318f551
 ---
 > 对于非计算机专业的人来说，为了做计算机图形而去学习opencv，学习opengl，会是一件很漫长而且艰难的经历，首先你要有最少一门语言基础，c++，python都可以，掌握这些就要花很长的时间，如果你只是想像用草稿纸一样画图，不要去关心一条直线是怎么一个一个像素生成的，也不关心图形学中有多少种曲线的生成方式，你只是想画点可能会很cool的图像，processing很适合你。 
 

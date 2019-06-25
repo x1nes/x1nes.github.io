@@ -1,11 +1,12 @@
 ---
-title: 教练,我想学webSocket
+title: '教练,我想学webSocket'
 layout: post
-tags: 
-    - webSocket 
-    - code
+tags:
+  - webSocket
+  - code
 category: code
 comments: true
+abbrlink: 9ceb5dee
 ---
 > html5里,我最感兴趣的两个部分一个是canvas,因为可以实现在页面上画画,基于webgl的技术在未来网页游戏上一定会大放异彩,而另外一部分,就是webSocket了。**但是实际上websocket不是HTML5 的东西**。它是一个协议,归属于IETF。HTML5只是提供了WebSocket API ，两个规范是独立发布的。
 
