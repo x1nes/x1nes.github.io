@@ -30,10 +30,10 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
   ![qrcode](https://wx2.sinaimg.cn/orj360/bca3c023gy1g3in6t145pj207607675g.jpg)
   额，样式还是太简单了，后续还要美化一下- - ！。
   2. 读书计划[进行中]
-  今年的书单是《javascript函数式编程指南》，《计算机程序的构造和解释》。重点是后一本，王垠博客里介绍的关于`lisp`的“入门书”。
+  今年的书单是《计算机程序的构造和解释》王垠博客里介绍的关于`lisp`的“入门书”。
   ps:临时新增一本《图解http》。
   3. 自己的开源项目
-  决定先写个简单的学习经验型项目，收集react编码技巧和经验，为以后做准备。
+  收集react编码技巧和功能经验。
   地址：https://github.com/x1nes/react-in-action
 
   -- 更新于2019年5月30日
