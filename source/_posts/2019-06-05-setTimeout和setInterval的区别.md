@@ -2,6 +2,7 @@
 title: setTimeout和setInterval的区别
 tags: '-javaScript'
 abbrlink: 64e435bc
+thumbnail: /img/random/heimao.jpg
 date: 2019-06-05 18:55:13
 ---
 > 我们再前端开发中需要实现定时任务或者`js`动画，都要用到`setTimeout`和`setInterval`z这两个函数，但是对于他们的原理，如果不清楚，往往会造成一些意想不到的问题。
