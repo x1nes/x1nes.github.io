@@ -219,6 +219,10 @@ sidebar:
             link: "/gallery"
             icon: camera
             divider: false
+        书单:
+            link: "/books"  
+            icon: books 
+            divider: false  
     article_num:
         use: false
         divider: false

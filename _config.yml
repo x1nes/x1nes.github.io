@@ -141,3 +141,10 @@ friend:
     - 
       href: http://www.baidu.com
       title: 百度（测试）           
+douban:
+  user: 88662032
+  builtin: true
+  book:
+    title: '我的书单'
+    quote: '多看书，多学习'
+  timeout: 10000 
