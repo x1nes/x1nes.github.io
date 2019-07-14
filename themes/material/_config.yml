@@ -98,7 +98,7 @@ card_elevation: 2
 # Copyright
 # Specify the date when the site was setup.
 #    For example, if you set it as 2015, then footer will show '© 2015 - 2017'
-copyright_since:
+copyright_since: 2017
 
 # Footer Text
 # You can specify the text you want to show in footer, HTML tag is supported.
@@ -171,16 +171,16 @@ sns:
     facebook: 
     twitter: 
     googleplus: 
-    weibo:
+    weibo: https://weibo.com/3164848163
     instagram:
     tumblr:
-    github:
+    github: https://github.com/x1nes
     linkedin:
     zhihu:
     bilibili:
     telegram:
     v2ex:
-    segmentfault:
+    segmentfault: https://segmentfault.com/u/x1nes
 
 # SNS Share Switch
 sns_share:
@@ -189,7 +189,7 @@ sns_share:
     googleplus: true
     weibo: true
     linkedin: false
-    qq: false
+    qq: true
     telegram: false
 
 # Sidebar Customize
@@ -207,9 +207,9 @@ sidebar:
         icon: inbox
         divider: false
     categories:
-        use: false
+        use: true
         icon: chrome_reader_mode
-        divider: false
+        divider: true
     pages:
         关于我:
             link: "/about"
@@ -222,7 +222,7 @@ sidebar:
         书单:
             link: "/books"  
             icon: books 
-            divider: false  
+            divider: true  
     article_num:
         use: false
         divider: false
@@ -231,7 +231,7 @@ sidebar:
         theme: true
         support: false
         feedback: false
-        material: false
+        material: true
 
 
 # ---------------------------------------------------------------

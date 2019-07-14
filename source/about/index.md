@@ -6,47 +6,14 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 > 
 
 ### 关于我
+  关于我其实没什么好说，我不会唱，跳，rap和篮球，最擅长的乐器是退堂鼓，最喜欢的是周末睡懒觉。
+  我只会写一点代码，只想认真的做点事情，不枉费时光，不浪费生命。
 
-  **大家好，我是编码时长两年半的代码搬运工，喜欢唱，跳，rap和篮球。 music~**
+  分享我最喜欢的一首歌 **Chasing Cars**。
 
- **不好意思：）**
- ![gif](/img/oT1JGQjh.gif)
-
-- 我的名字是**x1nes**，90后。
-
-- 2016年从**江南大学**(数字媒体技术)毕业，从事前端开发岗位。
-
-- 熟练掌握前端技术，`react`技术栈，熟悉`java`后端开发。
-
-- 熟悉`git`，`svn`，`linux`，`wireshark`，`postman`基本操作，熟悉`http`协议。
-
-### 我在做什么  
-
-  我现在的职业是前端开发，所以现在专注于web方面的各种知识和技术，包括`http`协议和各种先进的前端开发框架，
-  另外，我也对函数式编程很感兴趣，目前正在看一些函数式的js库（`lodash.js`）。
-  从业3年，前后端都有接触过，写过基于`java`,`python`的后端代码，到后来，发现自己更喜欢前端的技术环境。
-  19年的目标：
-  1. 写一个小程序[已完成]
-  ![qrcode](https://wx2.sinaimg.cn/orj360/bca3c023gy1g3in6t145pj207607675g.jpg)
-  额，样式还是太简单了，后续还要美化一下- - ！。
-  2. 读书计划[进行中]
-  今年的书单是《计算机程序的构造和解释》王垠博客里介绍的关于`lisp`的“入门书”。
-  ps:临时新增一本《图解http》。
-  3. 自己的开源项目
-  收集react编码技巧和功能经验。
-  地址：https://github.com/x1nes/react-in-action
-
-  -- 更新于2019年5月30日
-  
+{% youtube GrpSjXo6ah0 %}
 
 
-### 关于博客
-
-主题是`material`，感谢作者 [@viosey](https://github.com/viosey)，主题地址:point_right:[hexo-theme-material](https://github.com/viosey/hexo-theme-material/)。
-
-基于`hexo`:clap::clap:强力支持。
-
-博客内容主要记录前端相关的知识和转载一些优质博文，基于`github-pages`服务。
 
 **TODO**：
 

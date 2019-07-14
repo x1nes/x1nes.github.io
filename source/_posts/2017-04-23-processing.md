@@ -43,3 +43,8 @@ processing.js是一个javascript实现的canvas绘图库,他的作用就是把pr
 
 最后,canvas里就出现了你在.pde里绘制的图像了。
 	
+下面介绍`youtube`里面一个教你用`processing`语言的频道  
+
+**The Coding Train**
+
+{% youtube 5N31KNgOO0g %}
