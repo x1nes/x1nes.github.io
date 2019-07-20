@@ -9,7 +9,7 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
   关于我其实没什么好说，我不会唱，跳，rap和篮球，最擅长的乐器是退堂鼓，最喜欢的是周末睡懒觉。
   我只会写一点代码，只想认真的做点事情，不枉费时光，不浪费生命。
 
-  分享我最喜欢的一首歌 **Chasing Cars**。
+  分享我最喜欢的一首歌 **Chasing Cars**
 
 {% youtube GrpSjXo6ah0 %}
 
