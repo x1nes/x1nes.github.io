@@ -60,11 +60,21 @@ Promise.resolve()
 Promise.reject()
 ```
 
-这些api[Promise 对象](http://es6.ruanyifeng.com/#docs/promise)。
+这些api
+[Promise 对象](http://es6.ruanyifeng.com/#docs/promise)。
+
+关于promise的实现，可以看下PromiseA+的原则。下面是一个实现：
+
+<!-- Get UTF-8 Size (ANSI C) -->
+<!-- Begin -->
+<script src="https://gist.github.com/x1nes/5fad2985f43f235ed59702b805a7d824.js"></script>
+<!-- End -->
+
+
 
 ## async+await
 async+await就是目前为至，异步的最佳解决方案，它同时解决了
-
+其实，它是`Generator`函数的语法糖，之后我会单独写一篇博文介绍`Generator`函数和它的异步用法。
 回调地狱
 并发执行异步，在同一时刻同步返回结果 Promise.all
 返回值的问题

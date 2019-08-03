@@ -138,9 +138,9 @@ baidusitemap:
   path: baidusitemap.xml
 
 friend:
-    - 
-      href: http://www.baidu.com
-      title: 百度（测试）           
+    # - 
+      # href: http://www.baidu.com
+      # title: 百度（测试）           
 douban:
   user: 88662032
   builtin: true
