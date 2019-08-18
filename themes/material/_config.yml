@@ -195,7 +195,7 @@ sns_share:
 # Sidebar Customize
 sidebar:
     dropdown:
-        Email Me:
+        联系我:
             link: "#"
             icon: email
     homepage:
@@ -222,6 +222,14 @@ sidebar:
         书单:
             link: "/books"  
             icon: books 
+            divider: false  
+        电影:
+            link: "/movies"  
+            icon: movie 
+            divider: false  
+        游戏:
+            link: "/games"  
+            icon: cloud
             divider: true  
     article_num:
         use: false
