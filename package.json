@@ -33,9 +33,9 @@
   },
   "scripts": {
     "start": "hexo s",
-    "deploy": "hexo d -g",
+    "deploy": "hexo deploy -g",
     "clean": "hexo clean",
-    "pad": "git push && hexo d -g"
+    "pad": "git push && hexo deploy -g"
   },
   "devDependencies": {
     "husky": "^3.0.1",
