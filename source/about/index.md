@@ -6,9 +6,7 @@ thumbnail: /blog/img/random/29397181477_8e83ca944d_c.jpg
 > 
 
 ### 关于我
-前端码农，爱好历史，游戏，FP和睡懒觉。
-
-{% youtube GrpSjXo6ah0 %}
+是个前端。
 
 
 
