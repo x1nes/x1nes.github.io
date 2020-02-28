@@ -1,3 +1,5 @@
+<img src="https://travis-ci.org/x1nes/blog.svg?branch=master"/>
+
 # blog
 博客源码
 基于hexo
