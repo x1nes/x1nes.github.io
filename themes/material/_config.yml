@@ -33,7 +33,7 @@ scheme: Paradox
 
 # UI & UX: slogan, color, effect
 uiux:
-    slogan: "我们所度过的每一个日常,也许就是连续发生的奇迹"
+    slogan: "🙏6372384013🙏"
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
@@ -212,23 +212,23 @@ sidebar:
         divider: true
     pages:
         关于我:
-            link: "/about"
+            link: "/blog/about"
             icon: person
             divider: false
         相册:
-            link: "/gallery"
+            link: "/blog/gallery"
             icon: camera
             divider: false
         书单:
-            link: "/books"  
+            link: "/blog/books"  
             icon: books 
             divider: false  
         电影:
-            link: "/movies"  
+            link: "/blog/movies"  
             icon: movie 
             divider: false  
         游戏:
-            link: "/games"  
+            link: "/blog/games"  
             icon: cloud
             divider: true  
     article_num:
