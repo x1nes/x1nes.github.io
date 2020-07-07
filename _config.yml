@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 敲敲代码
+title: js coder
 subtitle:
 description:
 keywords: 博客 前端 bolg javascript web
@@ -145,12 +145,12 @@ douban:
   user: 88662032
   builtin: true
   book:
-    title: '开卷有益'
-    quote: '好读书，不求甚解'
+    title: '书籍'
+    quote: '这里是我看过和要看的书'
   movie:
-    title: '一部电影，一场旅行'
-    quote: '剧本，光影，演员，技巧，特效，配乐，组合在一起的艺术。'
+    title: '电影'
+    quote: '这里是我看过和想看的电影,ps：希望”柴尼斯“的广电和食安局可以交换下岗位，这样中国的文化和食品安全就都有救了。'
   game:
-    title: '游戏人生'
-    quote: '对于90后来说，关于电子游戏的最早记忆，就是炎热的夏天，吹着电风扇，吃着西瓜，玩着超级玛丽，魂斗罗，坦克大战。。。'
+    title: '游戏'
+    quote: '最近很少玩游戏了，老了老了'
   timeout: 10000 
