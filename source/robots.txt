@@ -9,5 +9,5 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: https://zhaoxinmin.club/sitemap.xml
-Sitemap: https://zhaoxinmin.club/baidusitemap.xml
+Sitemap: https://x1nes.github.io/sitemap.xml
+Sitemap: https://x1nes.github.io/baidusitemap.xml
