@@ -125,8 +125,7 @@ markdown:
     level: 2
     collisionSuffix: 'v'
     permalink: true
-    permalinkClass: header-anchor
-    permalinkSymbol: ~       
+    permalinkClass: header-anchor       
 
 search:
   path: search.xml
