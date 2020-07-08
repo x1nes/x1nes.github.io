@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: js coder
+title: 一个无聊的博客
 subtitle:
 description:
 keywords: 博客 前端 bolg javascript web
@@ -126,7 +126,7 @@ markdown:
     collisionSuffix: 'v'
     permalink: true
     permalinkClass: header-anchor
-    permalinkSymbol: ¶        
+    permalinkSymbol: ~       
 
 search:
   path: search.xml
