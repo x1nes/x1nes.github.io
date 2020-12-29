@@ -33,6 +33,7 @@
   },
   "scripts": {
     "start": "hexo s",
+    "new": "hexo new $*",
     "deploy": "hexo deploy -g",
     "clean": "hexo clean",
     "pad": "git push && hexo deploy -g"
