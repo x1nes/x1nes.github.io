@@ -3,7 +3,6 @@ title: javaScript异步操作进化曲
 tags:
   - js
   - promise
-thumbnail: /img/random/promise.png
 abbrlink: 2b77e8c0
 date: 2018-07-11 21:54:30
 ---
