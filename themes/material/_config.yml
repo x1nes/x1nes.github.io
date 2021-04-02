@@ -44,7 +44,7 @@ uiux:
 # JS Effect Switches
 js_effect:
   fade: true
-  smoothscroll: false
+  smoothscroll: true
 
 # Reading experience
 reading:
@@ -53,7 +53,7 @@ reading:
 # Thumbnail Settings
 thumbnail:
   purecolor:
-  random_amount: 43
+  random_amount: 42
 
 # Background Settings
 # bing available parameter:
@@ -166,11 +166,11 @@ toc:
 
 # SNS Menu
 sns:
-  email: 18352539920@163.com
+  email: 
   facebook:
   twitter:
   googleplus:
-  weibo: https://weibo.com/3164848163
+  weibo: 
   instagram:
   tumblr:
   github: https://github.com/x1nes
@@ -179,7 +179,7 @@ sns:
   bilibili:
   telegram:
   v2ex:
-  segmentfault: https://segmentfault.com/u/x1nes
+  segmentfault: 
 
 # SNS Share Switch
 sns_share:
@@ -193,10 +193,6 @@ sns_share:
 
 # Sidebar Customize
 sidebar:
-  dropdown:
-    联系我:
-      link: "#"
-      icon: email
   homepage:
     use: true
     icon: home
@@ -231,7 +227,7 @@ sidebar:
       icon: cloud
       divider: true
   article_num:
-    use: false
+    use: true
     divider: false
   footer:
     divider: true
@@ -250,7 +246,7 @@ sidebar:
 # If you want to use gitment or gitalk,you should get the client_id and client_secret from https://github.com/settings/applications/new
 # If you want to use valine,you should get the app_id and app_key from https://leancloud.cn ,more setting please see https://valine.js.org
 comment:
-  use: disqus_click
+  use: gitalk
   shortname: x1nes-1
   changyan_appid:
   changyan_conf:
@@ -269,10 +265,10 @@ comment:
   valine_lang: zh-cn # i18n
   valine_placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
   valine_guest_info: nick,mail,link #valine comment header info
-  gitalk_repo: # git repo of the hexo
-  gitalk_owner: # git repo's owner
-  gitalk_client_id: # github app client id
-  gitalk_client_secret: # github app client secret
+  gitalk_repo: gitTalkBuck
+  gitalk_owner: x1nes
+  gitalk_client_id: 7047f32466c59bed6274
+  gitalk_client_secret: 50030c1dc4654f2f10f8df23b3a084692a8ce248
   wildfire_database_provider: firebase # firebase or wilddog
   wildfire_wilddog_site_id:
   wildfire_firebase_api_key:
