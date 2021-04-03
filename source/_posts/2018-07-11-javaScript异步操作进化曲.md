@@ -1,7 +1,7 @@
 ---
 title: javaScript异步操作进化曲
 tags:
-  - js
+  - javaScript
   - promise
 abbrlink: 2b77e8c0
 date: 2018-07-11 21:54:30

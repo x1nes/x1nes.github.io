@@ -3,7 +3,7 @@ title: Performance--一个用来获取页面性能的接口
 date: 2019-06-25 14:29:02
 abbrlink: 94e1353c
 tags:
-	-JavaScript
+	 - JavaScript
 ---
 
 > 最近被问到一个问题，如何判断页面加载时间，我第一时间想到的是打开`devtool`看下`Network`下面
