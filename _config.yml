@@ -142,7 +142,7 @@ friend:
   # title: 百度（测试）
 douban:
   user: 88662032
-  builtin: true
+  builtin: false
   book:
     title: "书籍"
     quote: "这里是我看过和要看的书。"
