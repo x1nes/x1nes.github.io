@@ -51,3 +51,20 @@
     </div>
 <% } %>
 
+<script>
+    (function initVisibilitychange() {
+        var title = document.title 
+        var key
+        document.addEventListener('visibilitychange', function() {
+            if(document.visibilityState === 'visible') {
+                document.title = "骗你的~~"
+                key = setTimeout(() => {
+                    document.title = title
+                },1500)
+            }else {
+                clearTimeout(key)
+                document.title = "呕吼~崩溃了~~~"
+            }
+        })
+    })()
+    </script>
