@@ -57,3 +57,17 @@ ecma:
     link: https://tc39.es/ecma262/#sec-new-operator
     avatar: /blog/links/logo/ecma.png
     descr: "javaScript秘密所在"
+   
+npmtrends:
+    link: https://www.npmtrends.com/
+    avatar: https://www.npmtrends.com/images/logos/npm_trends_logo.png
+    descr: "npm包在线对比"   
+    
+stackoverflow:
+    link: https://stackoverflow.com/
+    avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png
+    descr: "编程问答社区"         
+    
+   
+   
+    
