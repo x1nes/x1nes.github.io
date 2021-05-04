@@ -1265,7 +1265,7 @@ window.addEventListener("load", function() {
         }
     }, MaterialRipple.prototype.upHandler_ = function(e) {
         "use strict";
-        e && 2 !== e.detail && this.rippleElement_.classList.remove(this.CssClasses_.IS_VISIBLE)
+        e && 2 !== e.detail && this.rippleElement_ && this.rippleElement_.classList.remove(this.CssClasses_.IS_VISIBLE)
     }, MaterialRipple.prototype.init = function() {
         "use strict";
         if (this.element_) {
