@@ -1,0 +1,17 @@
+{
+  "name": "x1nes",
+  "short_name": "star",
+  "theme_color": "rgba(203,7,83,0.86)",
+  "background_color": "#FAFAFA",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "img/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}

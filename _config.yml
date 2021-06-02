@@ -142,7 +142,7 @@ friend:
   # title: 百度（测试）
 douban:
   user: 88662032
-  builtin: true
+  builtin: false
   book:
     title: "书籍"
     quote: "这里是我看过和要看的书。"
@@ -153,3 +153,44 @@ douban:
     title: "游戏"
     quote: "这里是我玩过的游戏"
   timeout: 10000
+
+
+  # pwd 
+pwa:
+  manifest:
+    path: manifest.json
+    body:
+      name: x1nes
+      short_name: x1nes
+      theme_color: white
+      background_color: white
+      display: standalone
+      orientation: portrait
+      scope: /
+      start_url: /blog/
+      icons:
+        - src: img/logo.png
+          type: image/png
+          sizes: 144x144
+  serviceWorker:
+    path: /sw.js
+    preload:
+      urls:
+        - /
+      posts: 5
+    opts:
+      networkTimeoutSeconds: 20
+    routes:
+      - pattern: !!js/regexp /hm.baidu.com/
+        strategy: networkOnly
+      - pattern: !!js/regexp /www.google-analytics.com/
+        strategy: networkOnly
+      - pattern: !!js/regexp /pagead2.googlesyndication.com/
+        strategy: networkOnly
+      - pattern: !!js/regexp /cdn.jsdelivr.net/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /\//
+        strategy: networkFirst
+  priority: 5
