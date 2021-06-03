@@ -166,8 +166,8 @@ pwa:
       background_color: white
       display: standalone
       orientation: portrait
-      scope: /
-      start_url: /blog/
+      scope: /blog
+      start_url: /
       icons:
         - src: img/logo.png
           type: image/png
