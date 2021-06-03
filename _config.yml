@@ -167,7 +167,7 @@ pwa:
       display: standalone
       orientation: portrait
       scope: /
-      start_url: /
+      start_url: /blog/
       icons:
         - src: img/logo.png
           type: image/png
