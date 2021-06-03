@@ -176,7 +176,7 @@ pwa:
     path: sw.js
     preload:
       urls:
-        - /
+        - /blog/
       posts: 5
     opts:
       networkTimeoutSeconds: 20
