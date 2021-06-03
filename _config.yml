@@ -177,7 +177,7 @@ pwa:
     preload:
       urls:
         - /blog/
-      posts: 5
+      posts: 0
     opts:
       networkTimeoutSeconds: 20
     routes:
