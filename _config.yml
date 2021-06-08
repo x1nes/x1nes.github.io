@@ -155,7 +155,7 @@ douban:
   timeout: 10000
 
 
-  # pwd 
+  # pwa
 pwa:
   manifest:
     path: manifest.json
@@ -172,6 +172,18 @@ pwa:
         - src: img/logo.png
           type: image/png
           sizes: 144x144
+        - src: img/icon-60@2x.png
+          type: image/png
+          sizes: 60x60
+        - src: img/icon-40@2x.png
+          type: image/png
+          sizes: 40x40
+        - src: img/icon-29@2x.png
+          type: image/png
+          sizes: 29x29
+        - src: img/icon-20@2x.png
+          type: image/png
+          sizes: 20x20       
   serviceWorker:
     path: /sw.js
     preload:
