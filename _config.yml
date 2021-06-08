@@ -142,7 +142,7 @@ friend:
   # title: 百度（测试）
 douban:
   user: 88662032
-  builtin: false
+  builtin: true
   book:
     title: "书籍"
     quote: "这里是我看过和要看的书。"
@@ -166,8 +166,8 @@ pwa:
       background_color: white
       display: standalone
       orientation: portrait
-      scope: /
-      start_url: /blog/
+      scope: /blog/
+      start_url: https://x1nes.github.io/blog/
       icons:
         - src: img/logo.png
           type: image/png
@@ -185,11 +185,11 @@ pwa:
           type: image/png
           sizes: 20x20       
   serviceWorker:
-    path: /sw.js
+    path: sw.js
     preload:
       urls:
-        - /
-      posts: 5
+        - /blog/
+      posts: 0
     opts:
       networkTimeoutSeconds: 20
     routes:
