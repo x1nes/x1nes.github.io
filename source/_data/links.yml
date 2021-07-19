@@ -66,8 +66,17 @@ npmtrends:
 stackoverflow:
     link: https://stackoverflow.com/
     avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png
-    descr: "编程问答社区"         
-    
+    descr: "编程问答社区"    
+
+牛客:
+    link: https://www.nowcoder.com/
+    avatar: /blog/links/logo/niuke.jpg
+    descr: "毕业刷题找工作"
+
+ codeTop:
+    link: https://codetop.cc/
+    avatar: /blog/links/logo/codeTop.png
+    descr: "互联网大厂面试的高频考题"   
    
    
     
