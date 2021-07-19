@@ -1,0 +1,217 @@
+<!DOCTYPE html><html style="display:none" lang="zh"><head><link rel="manifest" href="manifest.json"><meta name="generator" content="Hexo 3.9.0"><link rel="manifest" href="manifest.json"><meta charset="utf-8"><script>window.materialVersion="1.5.6",window.oldVersion=["codestartv1","1.3.4","1.4.0","1.4.0b1","1.5.0","1.5.2","1.5.5"]</script><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://busuanzi.ibruce.info"><link rel="dns-prefetch" href="https://www.google-analytics.com"><link rel="dns-prefetch" href="https://fonts.googleapis.com"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="renderer" content="webkit"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><title> 浏览器兼容性问题 | simmyo_z的博客</title><link rel="icon shortcut" type="image/ico" href="/blog/img/favicon.png"><link rel="icon" href="/blog/img/favicon.png"><meta name="format-detection" content="telephone=no"><meta name="description" itemprop="description" content><meta name="keywords" content="blog 前端 javascript 算法 日志 css html,html"><meta name="theme-color" content="#0097A7"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><!--[if lte IE 9]><link rel="stylesheet" href="/css/ie-blocker.css"><script src="/js/ie-blocker.zhCN.js"></script><![endif]--><script>window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}},lsloader.removeLS=function(e){try{localStorage.removeItem(e)}catch(e){}},lsloader.setLS=function(e,t){try{localStorage.setItem(e,t)}catch(e){}},lsloader.getLS=function(e){var t="";try{t=localStorage.getItem(e)}catch(e){t=""}return t},versionString="/*"+(window.materialVersion||"unknownVersion")+"*/",lsloader.clean=function(){try{for(var e=[],t=0;t<localStorage.length;t++)e.push(localStorage.key(t));e.forEach(function(e){var n=lsloader.getLS(e);window.oldVersion&&window.oldVersion.reduce(function(e,t){return e||-1!==n.indexOf("/*"+t+"*/")},!1)&&lsloader.removeLS(e)})}catch(e){}},lsloader.clean(),lsloader.load=function(e,t,n,s){var a;if("boolean"==typeof n&&(s=n,n=void 0),s=s||!1,n=n||function(){},(a=this.getLS(e))&&-1===a.indexOf(versionString))return this.removeLS(e),void this.requestResource(e,t,n,s);if(a){if(a.split(versionString)[0]!=t)return console.log("reload:"+t),this.removeLS(e),void this.requestResource(e,t,n,s);a=a.split(versionString)[1],s?(this.jsRunSequence.push({name:e,code:a}),this.runjs(t,e,a)):(document.getElementById(e).appendChild(document.createTextNode(a)),n())}else this.requestResource(e,t,n,s)},lsloader.requestResource=function(t,n,e,s){var a=this;s?this.iojs(n,t,function(e,t,n){a.setLS(t,e+versionString+n),a.runjs(e,t,n)}):this.iocss(n,t,function(e){document.getElementById(t).appendChild(document.createTextNode(e)),a.setLS(t,n+versionString+e)},e)},lsloader.iojs=function(t,n,e){var s=this;s.jsRunSequence.push({name:n,code:""});try{var a=new XMLHttpRequest;a.open("get",t,!0),a.onreadystatechange=function(){if(4==a.readyState){if((200<=a.status&&a.status<300||304==a.status)&&""!=a.response)return void e(t,n,a.response);s.jsfallback(t,n)}},a.send(null)}catch(e){s.jsfallback(t,n)}},lsloader.iocss=function(t,n,e,s){var a=this;try{var o=new XMLHttpRequest;o.open("get",t,!0),o.onreadystatechange=function(){if(4==o.readyState){if((200<=o.status&&o.status<300||304==o.status)&&""!=o.response)return e(o.response),void s();a.cssfallback(t,n,s)}},o.send(null)}catch(e){a.cssfallback(t,n,s)}},lsloader.iofonts=function(t,n,e,s){var a=this;try{var o=new XMLHttpRequest;o.open("get",t,!0),o.onreadystatechange=function(){if(4==o.readyState){if((200<=o.status&&o.status<300||304==o.status)&&""!=o.response)return e(o.response),void s();a.cssfallback(t,n,s)}},o.send(null)}catch(e){a.cssfallback(t,n,s)}},lsloader.runjs=function(e,t,n){if(t&&n)for(var s in this.jsRunSequence)this.jsRunSequence[s].name==t&&(this.jsRunSequence[s].code=n);if(this.jsRunSequence[0]&&this.jsRunSequence[0].code&&"failed"!=this.jsRunSequence[0].status)(a=document.createElement("script")).appendChild(document.createTextNode(this.jsRunSequence[0].code)),a.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(a),this.jsRunSequence.shift(),0<this.jsRunSequence.length&&this.runjs();else if(this.jsRunSequence[0]&&"failed"==this.jsRunSequence[0].status){var a,o=this;(a=document.createElement("script")).src=this.jsRunSequence[0].path,a.type="text/javascript",this.jsRunSequence[0].status="loading",a.onload=function(){o.jsRunSequence.shift(),0<o.jsRunSequence.length&&o.runjs()},document.body.appendChild(a)}},lsloader.tagLoad=function(e,t){this.jsRunSequence.push({name:t,code:"",path:e,status:"failed"}),this.runjs()},lsloader.jsfallback=function(e,t){if(!this.jsnamemap[t]){for(var n in this.jsnamemap[t]=t,this.jsRunSequence)this.jsRunSequence[n].name==t&&(this.jsRunSequence[n].code="",this.jsRunSequence[n].status="failed",this.jsRunSequence[n].path=e);this.runjs()}},lsloader.cssfallback=function(e,t,n){if(!this.cssnamemap[t]){this.cssnamemap[t]=1;var s=document.createElement("link");s.type="text/css",s.href=e,s.rel="stylesheet",s.onload=s.onerror=n;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(s,a)}},lsloader.runInlineScript=function(e,t){var n=document.getElementById(t).innerText;this.jsRunSequence.push({name:e,code:n}),this.runjs()}</script><script>function Queue(){this.dataStore=[],this.offer=function(e){this.debug&&console.log("Offered a Queued Function.");"function"==typeof e?this.dataStore.push(e):console.log("You must offer a function.")},this.poll=function(){this.debug&&console.log("Polled a Queued Function.");return this.dataStore.shift()},this.execNext=function(){var e=this.poll();void 0!==e&&(this.debug&&console.log("Run a Queued Function."),e())},this.debug=!1,this.startDebug=function(){this.debug=!0}}var queue=new Queue</script><style id="material_css"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("material_css","/blog/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><style id="style_css"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("style_css","/blog/css/style.min.css?uVzgA6RLrOm13Ukw8Qgy+A==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><style id="prettify_css"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("prettify_css","/blog/css/prettify.min.css?zp8STOU9v89XWFEnN+6YmQ==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><style id="prettify_theme"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("prettify_theme","/blog/css/prettify/github-v2.min.css?AfzKxt++K+/lhZBlSjnxwg==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><style>body,html{font-family:Roboto,"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;overflow-x:hidden!important}code{font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace}a{color:#00838f}#scheme-Paradox .hot_tags-count,#scheme-Paradox .sidebar-colored .sidebar-badge,#scheme-Paradox .sidebar-colored .sidebar-header,#scheme-Paradox .sidebar_archives-count,#search-form-label:after,#search-label,.mdl-card__media{background-color:#0097a7!important}#scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus,#scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover{color:#0097a7!important}#ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a,#post_entry-right-info,.sidebar-colored .sidebar-nav li:hover>a,.sidebar-colored .sidebar-nav li:hover>a i,.sidebar-colored .sidebar-nav li>a:focus i,.sidebar-colored .sidebar-nav li>a:hover,.sidebar-colored .sidebar-nav li>a:hover i,.sidebar-colored .sidebar-nav>.open>a,.sidebar-colored .sidebar-nav>.open>a:focus,.sidebar-colored .sidebar-nav>.open>a:hover{color:#0097a7!important}.toTop{background:#757575!important}.material-layout .material-index>.material-nav,.material-layout .material-post>.material-nav,.material-nav a{color:#757575}#scheme-Paradox .MD-burger-layer{background-color:#757575}#scheme-Paradox #post-toc-trigger-btn{color:#757575}.post-toc a:hover{color:#00838f;text-decoration:underline}</style><style>body{background-color:#f5f5f5}#scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{background-color:#fff}</style><style>.fade{transition:all .8s linear;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1}.fade.out{opacity:0}</style><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet"><style id="material_icons"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("material_icons","/blog/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><script>lsloader.load("jq_js","/blog/js/jquery.min.js?ezyEvm8ST5CGfpA+kFFi1g==",!0)</script><meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="simmyo_z的博客"><meta name="msapplication-starturl" content="https://x1nes.github.io/blog/blog/posts/fe80343/"><meta name="msapplication-navbutton-color" content="#0097A7"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="simmyo_z的博客"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="apple-touch-icon" href="/blog/img/favicon.png"><meta property="og:url" content="https://x1nes.github.io/blog/blog/posts/fe80343/"><meta property="og:type" content="blog"><meta property="og:title" content="浏览器兼容性问题 | simmyo_z的博客"><meta property="og:image" content="/blog/img/favicon.png"><meta property="og:description" content><meta property="og:article:tag" content="html"><meta property="article:published_time" content="Wed Apr 07 2021 21:23:44 GMT+0000"><meta property="article:modified_time" content="Mon Jul 19 2021 16:16:42 GMT+0000"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://x1nes.github.io/blog/blog/posts/fe80343/index.html"><script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://x1nes.github.io/blog/blog/posts/fe80343/index.html",
+    "headline": "浏览器兼容性问题",
+    "datePublished": "Wed Apr 07 2021 21:23:44 GMT+0000",
+    "dateModified": "Mon Jul 19 2021 16:16:42 GMT+0000",
+    "author": {
+        "@type": "Person",
+        "name": "x1nes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpeg"
+        },
+        "description": "时间都去哪儿了"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "simmyo_z的博客",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",htmlblog 前端 javascript 算法 日志 css html",
+    "description": "",
+}
+</script><script>!function(e,a,t,n,g,c,o){e.GoogleAnalyticsObject=g,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),o=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script",0,"ga"),ga("create","UA-145111272-1","auto"),ga("send","pageview")</script></head><body id="scheme-Paradox" class="lazy"><div class="material-layout mdl-js-layout has-drawer is-upgraded"><main class="material-layout__content" id="main"><div id="top"></div> <button class="MD-burger-icon sidebar-toggle"><span id="MD-burger-id" class="MD-burger-layer"></span></button><div class="material-post_container"><div class="material-post mdl-grid"><div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col"><div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50"><script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 42 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/blog/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script><p class="article-headline-p"> 浏览器兼容性问题</p></div><div class="mdl-color-text--grey-700 mdl-card__supporting-text meta"><div id="author-avatar"> <img src="/blog/img/avatar.jpeg" width="44px" height="44px" alt="Author Avatar"></div><div> <strong>x1nes</strong> <span>4月 07, 2021</span></div><div class="section-spacer"></div> <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"> <i class="material-icons" role="presentation">devices other</i> <span class="visuallyhidden">devices other</span></button><ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button"><li class="mdl-menu__item">在其它设备中阅读本文章</li> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACcUlEQVR42u3awU7DMBAE0P7/T8MVCaWdWSdOKS+nStDEL0j2MruPr4++Hnh4eHh4eHh4eG/Ge8TX728dPuDHT9t75t89vA8eHh7eFt6LrXb0O0ePz+8/fC4eHh7eRt7Rhnvu5+dPyb+Lh4eH97d4SWl7tIk/L9Dx8PDw/gOvfQV5wIGHh4f3/rw2ll0JHZ4v8basBQ8PDy/m5Zv4/s9b+3t4eHh4Aa8eaQqK2ry51Q4l1ENXeHh4eBfwViLafFzgRXwQjGHlkTEeHh7eTl4eLrSRRFugJ08Zjqvi4eHhncpr/+1PGDl7JUrGw8PD28mbhQhJsz/ZyvPoYVhS4+Hh4V3Ge/74WTNsfaRgFh/j4eHhXc2bbfTt0TIbSsjjXTw8PLydvGTbrR/Qtqzi+59w7uHh4eEt84ox0BGyDXzXIww8PDy8u3gr4Wzdsoqp0aGCh4eHdzEvb33li84jhjaMqIeu8PDw8LbwVsrlswBJUHLC0BUeHh7eiDcLcGcHyXoYUR8MeHh4eBfwkkXnt26HCZJDKDkM8PDw8Hby8m03PzDaWHa2hqWUGg8PD2+Zl7e78nI8L6zbYax66AoPDw9vOy8pcPMjpB1ByMNlPDw8vHt5eRGcHyH5q5mNguHh4eHt4bVXHrnmy22L8hOGrvDw8PAWeLP2/KzFlS86b5id0ADDw8PDG/HaRc+Cg7bUzv8MeHh4eHfx2pJ32NofvZQiEMHDw8N7Y147FjBb7m0HAx4eHt6pvFn7qm22tVEIHh4e3n5eEka0i2sPhvxQwcPDw7uX10YAKw2wJMydlex4eHh4e3ifd+Hh4eHh4eHh4b3B9Q2b3u05HRdCaAAAAABJRU5ErkJggg=="></ul> <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"> <i class="material-icons" role="presentation">bookmark</i> <span class="visuallyhidden">bookmark</span></button><ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button"><li class="mdl-menu__item"> <a class="post_tag-link" href="/blog/tags/html/">html</a></li></ul> <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"> <i class="material-icons" role="presentation">share</i> <span class="visuallyhidden">share</span></button><ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button"><a class="post_share-link" href="#"><li class="mdl-menu__item"><span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span> &nbsp;浏览量</span></li></a><a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=浏览器兼容性问题&url=https://x1nes.github.io/blog/blog/posts/fe80343/index.html&pic=https://x1nes.github.io/blog/img/favicon.png&searchPic=false&style=simple" target="_blank"><li class="mdl-menu__item"> 分享到微博</li></a><a class="post_share-link" href="https://twitter.com/intent/tweet?text=浏览器兼容性问题&url=https://x1nes.github.io/blog/blog/posts/fe80343/index.html&via=x1nes" target="_blank"><li class="mdl-menu__item"> 分享到 Twitter</li></a><a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://x1nes.github.io/blog/blog/posts/fe80343/index.html" target="_blank"><li class="mdl-menu__item"> 分享到 Facebook</li></a><a class="post_share-link" href="https://plus.google.com/share?url=https://x1nes.github.io/blog/blog/posts/fe80343/index.html" target="_blank"><li class="mdl-menu__item"> 分享到 Google+</li></a><a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=simmyo_z的博客&title=浏览器兼容性问题&summary=&pics=https://x1nes.github.io/blog/img/favicon.png&url=https://x1nes.github.io/blog/blog/posts/fe80343/index.html" target="_blank"><li class="mdl-menu__item"> 分享到 QQ</li></a></ul></div><div style="padding-left:3rem;font-size:1rem"> 👉👉本文共<span class="post-count">1.1k</span>字📘 读完共需<span class="post-count">4</span>分钟⌚</div><div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out"><blockquote><p>一个记录日常结局浏览器兼容问题的备忘录</p></blockquote><ol><li>如何查看某个javaScript 对象或者css 属性的兼容性</li></ol><p>到MND搜索需要查看的内容,页面底部提供一份不同平台(比如PC端,手机端,node端)以及不同浏览器进行和其各个历史版本的兼容表格,可以很直观的看到你要用的技术是否支持业务覆盖的浏览器或者平台.</p><ol start="2"><li>浏览器强制用webkit内核<br> 国内部分双核浏览器如：360极速浏览器、搜狗浏览器、百度浏览器等等，这些浏览器都号称拥有两个内核，用户可以根据需要自由切换。双核浏览器的2个内个分别为极速内核（webkit内核），兼容内核（trident内核）。使用极速内核浏览器会按照w3c的新标准渲染页面，其结果是渲染速度更快，规范性更好。而兼容内核也并非一无是处，国内很多政府、银行类网站在编写之初考虑了兼容旧版本ie的trident内核，其代码并非为w3c规范的标准，而是浏览器厂商自定义的模式，这类网站则必须使用兼容模式打开，如果使用极速模式打开就会产生布局错乱等问题。</li></ol><p>可以用下面的标签强制浏览器使用极速内核:</p><meta name="renderer" content="webkit"><p>也可以使用兼容的写法:</p><meta name="renderer" content="webkit|ie-comp|ie-stand"> 这里会根据先后顺序,启用支持的内核,不支持也不会<ol start="3"><li>重置样式<br> 不同的浏览器之间基本样式很不一样，比如IE浏览器使用ie盒子模型，现代浏览器大多使用标准盒子模型。他们之间的宽度计算很不一样。<br> 这个时候就需要用reset.css重置一下样式了</li></ol><pre><code class="language-css">@charset &quot;utf-8&quot;;
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing=&quot;0&quot;' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* 清除浮动 */
+.clearfloat:after{display:block;clear:both;content:&quot;&quot;;visibility:hidden; height:0;} 
+.clearfloat{zoom:1} 
+
+</code></pre><ol start="4"><li>浏览器类型判断</li></ol><pre><code class="language-javaScript">// 浏览器类型判断
+function browserType () {
+    var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+    var isOpera = userAgent.indexOf(&quot;Opera&quot;) &gt; -1; //判断是否Opera浏览器
+    var isIE = window.ActiveXObject || &quot;ActiveXObject&quot; in window
+    var isEdge = userAgent.indexOf(&quot;Edge&quot;) &gt; -1; //判断是否IE的Edge浏览器
+    var isFF = userAgent.indexOf(&quot;Firefox&quot;) &gt; -1; //判断是否Firefox浏览器
+    var isSafari = userAgent.indexOf(&quot;Safari&quot;) &gt; -1 &amp;&amp; userAgent.indexOf(&quot;Chrome&quot;) == -1; //判断是否Safari浏览器
+    var isChrome = userAgent.indexOf(&quot;Chrome&quot;) &gt; -1 &amp;&amp; userAgent.indexOf(&quot;Safari&quot;) &gt; -1 &amp;&amp; !isEdge; //判断Chrome浏览器
+    if (isIE) {
+        var reIE = new RegExp(&quot;MSIE (\\d+\\.\\d+);&quot;);
+        reIE.test(userAgent);
+        var fIEVersion = parseFloat(RegExp[&quot;$1&quot;]);
+        if (userAgent.indexOf('MSIE 6.0') != -1) {
+            return &quot;IE6&quot;;
+        } else if (fIEVersion == 7) {
+            return &quot;IE7&quot;;
+        }
+        else if (fIEVersion == 8) {
+            return &quot;IE8&quot;;
+        }
+        else if (fIEVersion == 9) {
+            return &quot;IE9&quot;;
+        }
+        else if (fIEVersion == 10) {
+            return &quot;IE10&quot;;
+        }
+        else if (userAgent.toLowerCase().match(/rv:([\d.]+)\) like gecko/)) {
+            return &quot;IE11&quot;;
+        }
+        else {
+            return &quot;0&quot;
+        }//IE版本过低
+    }
+    if (isFF) {
+        return &quot;FF&quot;;
+    }
+    if (isOpera) {
+        return &quot;Opera&quot;;
+    }
+    if (isSafari) {
+        return &quot;Safari&quot;;
+    }
+    if (isChrome) {
+        return &quot;Chrome&quot;;
+    }
+    if (isEdge) {
+        return &quot;Edge&quot;;
+    }
+}
+</code></pre><ol start="5"><li>html if 判断浏览器ie版本</li></ol><pre><code class="language-html">&lt;!--[if !IE]&gt; 除IE外都可识别 &lt;!--&lt;![endif]--&gt;
+&lt;!--[if IE]&gt; 所有的IE可识别 &lt;![endif]--&gt;
+&lt;!--[if IE 6]&gt; 仅IE6可识别 &lt;![endif]--&gt;
+&lt;!--[if lt IE 6]&gt; IE6以及IE6以下版本可识别 &lt;![endif]--&gt;
+&lt;!--[if gte IE 6]&gt; IE6以及IE6以上版本可识别 &lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt; 仅IE7可识别 &lt;![endif]--&gt;
+&lt;!--[if lt IE 7]&gt; IE7以及IE7以下版本可识别 &lt;![endif]--&gt;
+&lt;!--[if gte IE 7]&gt; IE7以及IE7以上版本可识别 &lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt; 仅IE8可识别 &lt;![endif]--&gt;
+&lt;!--[if IE 9]&gt; 仅IE9可识别 &lt;![endif]--&gt;
+</code></pre><p>~~未完待续</p></div><div id="gitalk-comment"><div id="gitalk-container"></div><link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"><script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script><script>var gitalk=new Gitalk({clientID:"7047f32466c59bed6274",clientSecret:"50030c1dc4654f2f10f8df23b3a084692a8ce248",repo:"gitTalkBuck",owner:"x1nes",admin:["x1nes"],distractionFreeMode:!1});gitalk.render("gitalk-container")</script></div><style>#gitalk-comment{background-color:#eee;padding:2pc}</style></div><nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col"> <a href="/blog/posts/7e570359/" id="post_nav-newer" class="prev-content"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation"> <i class="material-icons">arrow_back</i></button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 新篇</a><div class="section-spacer"></div> <a href="/blog/posts/d721f59f/" id="post_nav-older" class="next-content">旧篇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation"> <i class="material-icons">arrow_forward</i></button></a></nav></div></div><script>
+    (function initVisibilitychange() {
+        var title = document.title 
+        var key
+        document.addEventListener('visibilitychange', function() {
+            if(document.visibilityState === 'visible') {
+                document.title = "骗你的~~"
+                key = setTimeout(() => {
+                    document.title = title
+                },1500)
+            }else {
+                clearTimeout(key)
+                document.title = "糟糕~chrome崩溃了~~~"
+            }
+        })
+    })()
+    </script><div class="sidebar-overlay"></div><aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation"><div id="sidebar-main"><div class="sidebar-header header-cover" style="background-image:url(/blog/img/sidebar_header.jpg)"><div class="top-bar"></div> <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display:initial" data-upgraded=",MaterialButton,MaterialRipple"> <i class="material-icons">clear_all</i><span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button><div class="sidebar-image"> <img src="/blog/img/avatar.jpeg" alt="x1nes's avatar"></div><a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown"><b class="caret"></b></a></div><ul class="nav sidebar-nav"><li class="dropdown"><ul id="settings-dropdown" class="dropdown-menu"></ul></li><li id="sidebar-first-li"> <a href="/blog/"><i class="material-icons sidebar-material-icons">home</i> 主页</a></li><li class="dropdown"> <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown"><i class="material-icons sidebar-material-icons">inbox</i> 归档<b class="caret"></b></a><ul class="dropdown-menu"><li> <a class="sidebar_archives-link" href="/blog/archives/2021/07/">七月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2021/06/">六月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2021/05/">五月 2021<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2021/04/">四月 2021<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2021/03/">三月 2021<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2020/12/">十二月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2019/07/">七月 2019<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2019/06/">六月 2019<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2019/05/">五月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2019/04/">四月 2019<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/07/">七月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/06/">六月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/04/">四月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/03/">三月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/02/">二月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/01/">一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2017/10/">十月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2017/04/">四月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2017/03/">三月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2017/02/">二月 2017<span class="sidebar_archives-count">1</span></a></li></ul></li><li class="dropdown"> <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown"><i class="material-icons sidebar-material-icons">chrome_reader_mode</i> 分类<b class="caret"></b></a><ul class="dropdown-menu"><li> <a class="sidebar_archives-link" href="/blog/categories/code/">code<span class="sidebar_archives-count">11</span></a></li><li><a class="sidebar_archives-link" href="/blog/categories/javaScript/">javaScript<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/categories/linux/">linux<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/categories/tool/">tool<span class="sidebar_archives-count">2</span></a></li></ul></li><li class="divider"></li><li> <a href="/blog/about" title="关于我"><i class="material-icons sidebar-material-icons">person</i> 关于我</a></li><li> <a href="/blog/tags" title="标签云"><i class="material-icons sidebar-material-icons">label</i> 标签云</a></li><li> <a href="/blog/timeline" title="时间轴"><i class="material-icons sidebar-material-icons">timeline</i> 时间轴</a></li><li> <a href="/blog/gallery" title="相册"><i class="material-icons sidebar-material-icons">photo</i> 相册</a></li><li> <a href="/blog/books" title="书单"><i class="material-icons sidebar-material-icons">books</i> 书单</a></li><li> <a href="/blog/movies" title="电影"><i class="material-icons sidebar-material-icons">movie</i> 电影</a></li><li> <a href="/blog/games" title="游戏"><i class="material-icons sidebar-material-icons">face</i> 游戏</a></li><li> <a href="/blog/links" title="链接"><i class="material-icons sidebar-material-icons">linkify</i> 链接</a></li><li class="divider"></li><li> <a href="/archives">文章总数 <span class="sidebar-badge">47</span></a></li></ul><style>.mdl-card.sidebar-card_friend{padding:20px;width:auto;overflow:hidden;padding-top:10px}.mdl-card.sidebar-card_friend h6{height:28px;line-height:28px;font-weight:400;white-space:nowrap;text-decoration:none;text-align:center;font-size:14px;font-family:Roboto,"Helvetica Neue";margin:0 auto}.mdl-card.sidebar-card_friend a{color:#000;text-decoration-line:none;font-family:Roboto,"Helvetica Neue";width:fit-content;width:-webkit-fit-content;width:-moz-fit-content;white-space:nowrap;word-break:keep-all;margin:8px 4px;font-size:13px}.mdl-card.sidebar-card_friend a:hover{color:#00838f}.mdl-card.sidebar-card_friend a::before{content:"";position:absolute;width:5px;height:5px;border-radius:50%;background-color:#00838f;left:-8px;top:8px}#friend-content{display:flex;align-content:center;flex-wrap:wrap}</style><div class="sidebar-divider"></div><a href="https://github.com/viosey/hexo-theme-material" class="sidebar-footer-text-a" target="_blank"><div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple"> 主题 - Material <span class="sidebar-badge badge-circle">i</span></div></a></div></aside><div id="back-to-top" class="toTop-wrap"> <a href="#top" class="toTop"><i class="material-icons footer_top-i">expand_less</i></a></div><footer class="mdl-mini-footer" id="bottom"><div class="mdl-mini-footer--left-section sns-list"> <a href="https://github.com/x1nes" target="_blank"><button class="mdl-mini-footer--social-btn social-btn footer-sns-github"> <span class="visuallyhidden">Github</span></button></a></div><div id="copyright"> Copyright&nbsp;©&nbsp;<span year></span>&nbsp;simmyo_z的博客</div><div class="mdl-mini-footer--right-section"><div><div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div><div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div></div></div></footer><script>lsloader.load("lazyload_js","/blog/js/lazyload.min.js?wgjW/HuQG9JDgvPDPoRAng==",!0)</script><script>lsloader.load("js_js","/blog/js/js.min.js?zvSPHDkEskkA20yxZY14lg==",!0)</script><script>lsloader.load("np_js","/blog/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==",!0)</script><script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script><script>lsloader.load("sm_js","/blog/js/smoothscroll.js?j10x2vnLBvyUc9TVmIDKCg==",!0)</script><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script>var agent=navigator.userAgent.toLowerCase();0<agent.indexOf("ucbrowser")&&(document.write('<link rel="stylesheet" href="/blog/css/uc.css">'),alert("由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。"))</script><script>lsloader.load("prettify_js","/blog/js/prettify.min.js?WN07fivHQSMKWy7BmHBB6w==",!0)</script><script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
+        
+    
+    
+</script><script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script><script>var copyrightNow=(new Date).getFullYear(),textContent=document.querySelector("span[year]");copyrightSince=2017,copyrightSince===copyrightNow||0===copyrightSince?textContent.textContent=copyrightNow:textContent.textContent=copyrightSince+" - "+copyrightNow,function(){for(var t=document.querySelectorAll('script[type="text/ls-javascript"]'),e=0;e<t.length;++e){var o=t[e];lsloader.runInlineScript(o.id,o.id)}}(),console.log("\n %c © Material Theme | Version: 1.5.6 | https://github.com/viosey/hexo-theme-material %c \n","color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;","color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;")</script></main></div><script id="dsq-count-scr" src="//x1nes-1.disqus.com/count.js" async></script><script>"serviceWorker"in navigator&&navigator.serviceWorker.register("sw.js?t=1626711434974").then(function(){console.log("ServiceWorker Register Successfully.")}).catch(function(e){console.error(e)})</script></body></html>

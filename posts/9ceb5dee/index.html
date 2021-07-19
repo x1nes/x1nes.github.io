@@ -1,0 +1,241 @@
+<!DOCTYPE html><html style="display:none" lang="zh"><head><link rel="manifest" href="manifest.json"><meta name="generator" content="Hexo 3.9.0"><link rel="manifest" href="manifest.json"><meta charset="utf-8"><script>window.materialVersion="1.5.6",window.oldVersion=["codestartv1","1.3.4","1.4.0","1.4.0b1","1.5.0","1.5.2","1.5.5"]</script><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://busuanzi.ibruce.info"><link rel="dns-prefetch" href="https://www.google-analytics.com"><link rel="dns-prefetch" href="https://fonts.googleapis.com"><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><meta name="renderer" content="webkit"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><title> 教练,我想学webSocket | simmyo_z的博客</title><link rel="icon shortcut" type="image/ico" href="/blog/img/favicon.png"><link rel="icon" href="/blog/img/favicon.png"><meta name="format-detection" content="telephone=no"><meta name="description" itemprop="description" content><meta name="keywords" content="blog 前端 javascript 算法 日志 css html,webSocket"><meta name="theme-color" content="#0097A7"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><!--[if lte IE 9]><link rel="stylesheet" href="/css/ie-blocker.css"><script src="/js/ie-blocker.zhCN.js"></script><![endif]--><script>window.lsloader={jsRunSequence:[],jsnamemap:{},cssnamemap:{}},lsloader.removeLS=function(e){try{localStorage.removeItem(e)}catch(e){}},lsloader.setLS=function(e,t){try{localStorage.setItem(e,t)}catch(e){}},lsloader.getLS=function(e){var t="";try{t=localStorage.getItem(e)}catch(e){t=""}return t},versionString="/*"+(window.materialVersion||"unknownVersion")+"*/",lsloader.clean=function(){try{for(var e=[],t=0;t<localStorage.length;t++)e.push(localStorage.key(t));e.forEach(function(e){var n=lsloader.getLS(e);window.oldVersion&&window.oldVersion.reduce(function(e,t){return e||-1!==n.indexOf("/*"+t+"*/")},!1)&&lsloader.removeLS(e)})}catch(e){}},lsloader.clean(),lsloader.load=function(e,t,n,s){var a;if("boolean"==typeof n&&(s=n,n=void 0),s=s||!1,n=n||function(){},(a=this.getLS(e))&&-1===a.indexOf(versionString))return this.removeLS(e),void this.requestResource(e,t,n,s);if(a){if(a.split(versionString)[0]!=t)return console.log("reload:"+t),this.removeLS(e),void this.requestResource(e,t,n,s);a=a.split(versionString)[1],s?(this.jsRunSequence.push({name:e,code:a}),this.runjs(t,e,a)):(document.getElementById(e).appendChild(document.createTextNode(a)),n())}else this.requestResource(e,t,n,s)},lsloader.requestResource=function(t,n,e,s){var a=this;s?this.iojs(n,t,function(e,t,n){a.setLS(t,e+versionString+n),a.runjs(e,t,n)}):this.iocss(n,t,function(e){document.getElementById(t).appendChild(document.createTextNode(e)),a.setLS(t,n+versionString+e)},e)},lsloader.iojs=function(t,n,e){var s=this;s.jsRunSequence.push({name:n,code:""});try{var a=new XMLHttpRequest;a.open("get",t,!0),a.onreadystatechange=function(){if(4==a.readyState){if((200<=a.status&&a.status<300||304==a.status)&&""!=a.response)return void e(t,n,a.response);s.jsfallback(t,n)}},a.send(null)}catch(e){s.jsfallback(t,n)}},lsloader.iocss=function(t,n,e,s){var a=this;try{var o=new XMLHttpRequest;o.open("get",t,!0),o.onreadystatechange=function(){if(4==o.readyState){if((200<=o.status&&o.status<300||304==o.status)&&""!=o.response)return e(o.response),void s();a.cssfallback(t,n,s)}},o.send(null)}catch(e){a.cssfallback(t,n,s)}},lsloader.iofonts=function(t,n,e,s){var a=this;try{var o=new XMLHttpRequest;o.open("get",t,!0),o.onreadystatechange=function(){if(4==o.readyState){if((200<=o.status&&o.status<300||304==o.status)&&""!=o.response)return e(o.response),void s();a.cssfallback(t,n,s)}},o.send(null)}catch(e){a.cssfallback(t,n,s)}},lsloader.runjs=function(e,t,n){if(t&&n)for(var s in this.jsRunSequence)this.jsRunSequence[s].name==t&&(this.jsRunSequence[s].code=n);if(this.jsRunSequence[0]&&this.jsRunSequence[0].code&&"failed"!=this.jsRunSequence[0].status)(a=document.createElement("script")).appendChild(document.createTextNode(this.jsRunSequence[0].code)),a.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(a),this.jsRunSequence.shift(),0<this.jsRunSequence.length&&this.runjs();else if(this.jsRunSequence[0]&&"failed"==this.jsRunSequence[0].status){var a,o=this;(a=document.createElement("script")).src=this.jsRunSequence[0].path,a.type="text/javascript",this.jsRunSequence[0].status="loading",a.onload=function(){o.jsRunSequence.shift(),0<o.jsRunSequence.length&&o.runjs()},document.body.appendChild(a)}},lsloader.tagLoad=function(e,t){this.jsRunSequence.push({name:t,code:"",path:e,status:"failed"}),this.runjs()},lsloader.jsfallback=function(e,t){if(!this.jsnamemap[t]){for(var n in this.jsnamemap[t]=t,this.jsRunSequence)this.jsRunSequence[n].name==t&&(this.jsRunSequence[n].code="",this.jsRunSequence[n].status="failed",this.jsRunSequence[n].path=e);this.runjs()}},lsloader.cssfallback=function(e,t,n){if(!this.cssnamemap[t]){this.cssnamemap[t]=1;var s=document.createElement("link");s.type="text/css",s.href=e,s.rel="stylesheet",s.onload=s.onerror=n;var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(s,a)}},lsloader.runInlineScript=function(e,t){var n=document.getElementById(t).innerText;this.jsRunSequence.push({name:e,code:n}),this.runjs()}</script><script>function Queue(){this.dataStore=[],this.offer=function(e){this.debug&&console.log("Offered a Queued Function.");"function"==typeof e?this.dataStore.push(e):console.log("You must offer a function.")},this.poll=function(){this.debug&&console.log("Polled a Queued Function.");return this.dataStore.shift()},this.execNext=function(){var e=this.poll();void 0!==e&&(this.debug&&console.log("Run a Queued Function."),e())},this.debug=!1,this.startDebug=function(){this.debug=!0}}var queue=new Queue</script><style id="material_css"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("material_css","/blog/css/material.min.css?Z7a72R1E4SxzBKR/WGctOA==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><style id="style_css"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("style_css","/blog/css/style.min.css?uVzgA6RLrOm13Ukw8Qgy+A==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><style id="prettify_css"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("prettify_css","/blog/css/prettify.min.css?zp8STOU9v89XWFEnN+6YmQ==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><style id="prettify_theme"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("prettify_theme","/blog/css/prettify/github-v2.min.css?AfzKxt++K+/lhZBlSjnxwg==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><style>body,html{font-family:Roboto,"Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;overflow-x:hidden!important}code{font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace}a{color:#00838f}#scheme-Paradox .hot_tags-count,#scheme-Paradox .sidebar-colored .sidebar-badge,#scheme-Paradox .sidebar-colored .sidebar-header,#scheme-Paradox .sidebar_archives-count,#search-form-label:after,#search-label,.mdl-card__media{background-color:#0097a7!important}#scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus,#scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover{color:#0097a7!important}#ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a,#post_entry-right-info,.sidebar-colored .sidebar-nav li:hover>a,.sidebar-colored .sidebar-nav li:hover>a i,.sidebar-colored .sidebar-nav li>a:focus i,.sidebar-colored .sidebar-nav li>a:hover,.sidebar-colored .sidebar-nav li>a:hover i,.sidebar-colored .sidebar-nav>.open>a,.sidebar-colored .sidebar-nav>.open>a:focus,.sidebar-colored .sidebar-nav>.open>a:hover{color:#0097a7!important}.toTop{background:#757575!important}.material-layout .material-index>.material-nav,.material-layout .material-post>.material-nav,.material-nav a{color:#757575}#scheme-Paradox .MD-burger-layer{background-color:#757575}#scheme-Paradox #post-toc-trigger-btn{color:#757575}.post-toc a:hover{color:#00838f;text-decoration:underline}</style><style>body{background-color:#f5f5f5}#scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{background-color:#fff}</style><style>.fade{transition:all .8s linear;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);opacity:1}.fade.out{opacity:0}</style><link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet"><style id="material_icons"></style><script>void 0===window.lsLoadCSSMaxNums&&(window.lsLoadCSSMaxNums=0),window.lsLoadCSSMaxNums++,lsloader.load("material_icons","/blog/css/material-icons.css?pqhB/Rd/ab0H2+kZp0RDmw==",function(){void 0===window.lsLoadCSSNums&&(window.lsLoadCSSNums=0),window.lsLoadCSSNums++,window.lsLoadCSSNums==window.lsLoadCSSMaxNums&&(document.documentElement.style.display="")},!1)</script><script>lsloader.load("jq_js","/blog/js/jquery.min.js?ezyEvm8ST5CGfpA+kFFi1g==",!0)</script><meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="simmyo_z的博客"><meta name="msapplication-starturl" content="https://x1nes.github.io/blog/blog/posts/9ceb5dee/"><meta name="msapplication-navbutton-color" content="#0097A7"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="simmyo_z的博客"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="apple-touch-icon" href="/blog/img/favicon.png"><meta property="og:url" content="https://x1nes.github.io/blog/blog/posts/9ceb5dee/"><meta property="og:type" content="blog"><meta property="og:title" content="教练,我想学webSocket | simmyo_z的博客"><meta property="og:image" content="/blog/img/favicon.png"><meta property="og:description" content><meta property="og:article:tag" content="webSocket"><meta property="article:published_time" content="Thu Feb 08 2018 00:00:00 GMT+0000"><meta property="article:modified_time" content="Mon Jul 19 2021 16:16:42 GMT+0000"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://x1nes.github.io/blog/blog/posts/9ceb5dee/index.html"><script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://x1nes.github.io/blog/blog/posts/9ceb5dee/index.html",
+    "headline": "教练,我想学webSocket",
+    "datePublished": "Thu Feb 08 2018 00:00:00 GMT+0000",
+    "dateModified": "Mon Jul 19 2021 16:16:42 GMT+0000",
+    "author": {
+        "@type": "Person",
+        "name": "x1nes",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpeg"
+        },
+        "description": "时间都去哪儿了"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "simmyo_z的博客",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",webSocketblog 前端 javascript 算法 日志 css html",
+    "description": "",
+}
+</script><script>!function(e,a,t,n,g,c,o){e.GoogleAnalyticsObject=g,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),o=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script",0,"ga"),ga("create","UA-145111272-1","auto"),ga("send","pageview")</script></head><body id="scheme-Paradox" class="lazy"><div class="material-layout mdl-js-layout has-drawer is-upgraded"><main class="material-layout__content" id="main"><div id="top"></div> <button class="MD-burger-icon sidebar-toggle"><span id="MD-burger-id" class="MD-burger-layer"></span></button> <button id="post-toc-trigger-btn" class="mdl-button mdl-js-button mdl-button--icon"> <i class="material-icons">format_list_numbered</i></button><ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh;overflow-y:scroll"><ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#什么是websocket-？"><span class="post-toc-number">1.</span> <span class="post-toc-text">¶什么是webSocket ？</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#怎么做到的"><span class="post-toc-number">2.</span> <span class="post-toc-text">¶怎么做到的 ?</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#http"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">¶http:</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#websocket"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">¶WebSocket</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#客户端例子"><span class="post-toc-number">3.</span> <span class="post-toc-text">¶客户端例子</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#api"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">¶api:</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#服务端"><span class="post-toc-number">4.</span> <span class="post-toc-text">¶服务端</span></a></li></ol></ul><div class="material-post_container"><div class="material-post mdl-grid"><div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col"><div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50"><script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 42 + 1);
+
+    $('.post_thumbnail-random').attr('data-original', '/blog/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').addClass('lazy');
+</script><p class="article-headline-p"> 教练,我想学webSocket</p></div><div class="mdl-color-text--grey-700 mdl-card__supporting-text meta"><div id="author-avatar"> <img src="/blog/img/avatar.jpeg" width="44px" height="44px" alt="Author Avatar"></div><div> <strong>x1nes</strong> <span>2月 08, 2018</span></div><div class="section-spacer"></div> <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"> <i class="material-icons" role="presentation">devices other</i> <span class="visuallyhidden">devices other</span></button><ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button"><li class="mdl-menu__item">在其它设备中阅读本文章</li> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACYklEQVR42u3awW0DMQwEQPffdFKBnSUpMbYx9woCWKfR4ygs+fj56ueBh4eHh4eHh4f3ZrxH/Dz71bN1kvWra0br4OHh4a3w/vjUPtlKfkz5ygf2hoeHh7fIe/1xzwvA5CB678XDw8N7f15eNqINBe/Cw8PD+3Re9bKbhxGTveHh4eHt8/KNvo5f85LQ+//FrAUPDw8v5k0Cgtt/r/b38PDw8AJeeaQpbnElza2kbIyGrvDw8PAu8CYDUgm+Rx2NI+Dh4eGt8yZtqrycRLFCPMCKh4eHt89LPsq94tGLYvN2WlQY8PDw8C7zkg/3fHAqv2rnpQUPDw9vk1dtiSWvnBzBJODAw8PD2+dV21HVa3f1sl6NNvDw8PBu83ojAsmLq2ME1XWiwoCHh4d3gXe2KVVtj/Ui4FHWgoeHhzfm5e2uUVMqji0me8DDw8Pb4U0Wmo8aJK2ywzNleHh4eEfnOeetr2p7LL+gHxi6wsPDw7vA6zXye5fp/L35oePh4eFt8qrg/GOdjCD0ilAhpcbDw8O7wEuGA3JAM0Q49R88PDy8FV6vSFQj1140nO8EDw8Pb583vwRHr4+DjGSHzTACDw8P7xBvHrlW44xJaNuse3h4eHhjXvXJX1PdelJOoqEEPDw8vMu86rjV/FfV1ldSWvDw8PD2eUkxyKOBatDQG95qDl3h4eHhHeXlH+ikYCTX8XkYgYeHh/cpvAm1V0gK6+Ph4eG9Ja86cJAfQa8Y4OHh4f0XLx976rXH8kNJAl88PDy8/+X1IoAeo7r1/Ajw8PDwdnjf9+Dh4eHh4eHh4b3B8wus169b2NmNVQAAAABJRU5ErkJggg=="></ul> <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"> <i class="material-icons" role="presentation">bookmark</i> <span class="visuallyhidden">bookmark</span></button><ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button"><li class="mdl-menu__item"> <a class="post_tag-link" href="/blog/tags/webSocket/">webSocket</a></li></ul> <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"> <i class="material-icons" role="presentation">share</i> <span class="visuallyhidden">share</span></button><ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button"><a class="post_share-link" href="#"><li class="mdl-menu__item"><span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span> &nbsp;浏览量</span></li></a><a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=教练,我想学webSocket&url=https://x1nes.github.io/blog/blog/posts/9ceb5dee/index.html&pic=https://x1nes.github.io/blog/img/favicon.png&searchPic=false&style=simple" target="_blank"><li class="mdl-menu__item"> 分享到微博</li></a><a class="post_share-link" href="https://twitter.com/intent/tweet?text=教练,我想学webSocket&url=https://x1nes.github.io/blog/blog/posts/9ceb5dee/index.html&via=x1nes" target="_blank"><li class="mdl-menu__item"> 分享到 Twitter</li></a><a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://x1nes.github.io/blog/blog/posts/9ceb5dee/index.html" target="_blank"><li class="mdl-menu__item"> 分享到 Facebook</li></a><a class="post_share-link" href="https://plus.google.com/share?url=https://x1nes.github.io/blog/blog/posts/9ceb5dee/index.html" target="_blank"><li class="mdl-menu__item"> 分享到 Google+</li></a><a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=simmyo_z的博客&title=教练,我想学webSocket&summary=&pics=https://x1nes.github.io/blog/img/favicon.png&url=https://x1nes.github.io/blog/blog/posts/9ceb5dee/index.html" target="_blank"><li class="mdl-menu__item"> 分享到 QQ</li></a></ul></div><div style="padding-left:3rem;font-size:1rem"> 👉👉本文共<span class="post-count">1.8k</span>字📘 读完共需<span class="post-count">7</span>分钟⌚</div><div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out"><blockquote><p>html5里,我最感兴趣的两个部分一个是canvas,因为可以实现在页面上画画,基于webgl的技术在未来网页游戏上一定会大放异彩,而另外一部分,就是webSocket了。<strong>但是实际上websocket不是HTML5 的东西</strong>。它是一个协议,归属于IETF。HTML5只是提供了WebSocket API ，两个规范是独立发布的。</p></blockquote><h2 id="什么是websocket-？"><a class="header-anchor" href="#什么是websocket-？">¶</a>什么是webSocket ？</h2><p>WebSocket是一种网络通讯协议,目前市面上很多网站都用到了这项技术,比如在线聊天室,在线客服系统,还有一些评论系统,WebIM等。它的特点就是：持久化,实时性,客户端和服务端双向通讯。<br> 为什么需要webSocket呢？相信很多程序员都遇到过这样类似的需求----实时的显示物品的价格、股票走势的图标、网页上实现聊天等交互功能。这些需求如果用http协议,只能客户端发请求,服务端返回结果,就需要不停的&quot;轮询&quot;：每隔一段时候，就发出一个询问，了解服务器有没有新的信息。轮询的效率很低,并且浪费资源,需要服务器有很快的处理速度和资源。另外还有一种长连接的方式（long poll）,是阻塞式的ajax,一次请求直到有结果返回才会进行下一次请求,这种方式需要服务器高并发能力。</p><p>而WebSocket就是一个很好的解决方案。</p><h2 id="怎么做到的"><a class="header-anchor" href="#怎么做到的">¶</a>怎么做到的 ?</h2><p>WebSocket基于HTTP协议,借用HTTP的协议完成一部分握手。<br> 在握手阶段是一样的。</p><p>下面是WebSocket的握手（如果你经常看htpp的包,就很容易看懂下面的东西）。</p><pre><code>GET /chat HTTP/1.1
+Host: server.example.com
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==
+Sec-WebSocket-Protocol: chat, superchat
+Sec-WebSocket-Version: 13
+Origin: http://example.com
+</code></pre><p>这里比HTTP多了几个东西</p><pre><code>Upgrade: websocket
+Connection: Upgrade
+</code></pre><p>这两行会告诉服务器：这是一个WebSocket协议,请用对应的模块处理。</p><pre><code>Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==
+Sec-WebSocket-Protocol: chat, superchat
+Sec-WebSocket-Version: 13
+</code></pre><p>Sec-WebSocket-Key 是一个Base64 encode的值，这个是浏览器随机生成的密文,要求服务端必须返回一个对应的加密Sec-WebSocket-Accept应答,否则客户端会抛出Error during WebSocket handshake错误，并关闭连接。<br> Sec-WebSocket-Protocol 是一个用户定义的字符串，用来区分同URL下，不同的服务所需要的协议。<br> Sec-WebSocket-Version 是告诉服务器所使用的Websocket Draft(协议版本),现在都是13。</p><p>然后服务器会返回下列东西，表示已经接受到请求， 成功建立Websocket啦！</p><pre><code>HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
+Sec-WebSocket-Protocol: chat
+</code></pre><p>这样就是websocket链接成功,接下来就可以不用request和response愉快的收发数据了。<br> 不同的服务端有不同语言的实现方式,而在客户端通常使用js或者其他封装库。</p><p>对比一下HTTP和WebSocket,是这样的~~</p><h3 id="http"><a class="header-anchor" href="#http">¶</a>http:</h3><p>客户端：现在比特币价格多少！<br> 服务端：20000刀！<br> 10s后<br> 客户端：现在比特币价格多少！<br> 服务端：18000刀！<br> 开始轮询~~~<br> 客户端：现在比特币价格多少！<br> 0.5s后<br> 客户端：现在比特币价格多少！<br> 0.5s后<br> 客户端：现在比特币价格多少！<br> 服务端：19000刀<br> 服务端：19000刀<br> 服务端：@%#……&amp;@<em>……</em>#*（内心os:累死我了，不干了！）</p><h3 id="websocket"><a class="header-anchor" href="#websocket">¶</a>WebSocket</h3><p>奥义–websocket链接！！<br> 客户端：要是比特币价格变了及时告诉我。<br> 服务端：ok，没问题。<br> 服务端：惊天大消息，比特币暴跌！<br> 客户端：不慌不慌,继续加仓。<br> 20s后<br> 服务端：涨了！涨了！<br> 客户端：还会再涨，加仓，拉满。</p><p>总结就是：<br> 1 建立在 TCP 协议之上，服务器端的实现比较容易。<br> 2 与 HTTP 协议有着良好的兼容性。默认端口也是80和443，并且握手阶段采用 HTTP 协议，因此握手时不容易屏蔽，能通过各种 HTTP 代理服务器。<br> 3 数据格式比较轻量，性能开销小，通信高效。<br> 4 可以发送文本，也可以发送二进制数据。<br> 5 没有同源限制，客户端可以与任意服务器通信。<br> 6 协议标识符是ws（如果加密，则为wss），服务器网址就是 URL。</p><h2 id="客户端例子"><a class="header-anchor" href="#客户端例子">¶</a>客户端例子</h2><p>在客户端,webSocket使用起来很简单</p><pre><code class="language-javascript">var ws = new WebSocket(&quot;wss://echo.websocket.org&quot;);
+
+ws.onopen = function(evt) { 
+  console.log(&quot;Connection open ...&quot;); 
+  ws.send(&quot;Hello WebSockets!&quot;);
+};
+
+ws.onmessage = function(evt) {
+  console.log( &quot;Received Message: &quot; + evt.data);
+  ws.close();
+};
+
+ws.onclose = function(evt) {
+  console.log(&quot;Connection closed.&quot;);
+};  
+</code></pre><p>初中英语都能看懂是什么意思,就不解释了。<br> 另外还有常用的webSocket库,<a href="http://xn--socket-hh4k.io" target="_blank" rel="noopener">如socket.io</a>。</p><h3 id="api"><a class="header-anchor" href="#api">¶</a>api:</h3><p>webSocket.readyState readyState属性返回实例对象的当前状态,0:表示正在连接;1,表示连接成功;<br> 2，表示连接正在关闭;3，表示连接已经关闭，或者打开连接失败。<br> webSocket.onopen 用于指定连接成功后的回调函数。<br> webSocket.onclose 用于指定连接关闭后的回调函数。<br> webSocket.onmessage 用于指定收到服务器数据后的回调函数。<br> webSocket.send() 用于向服务器发送数据。<br> webSocket.bufferedAmount 表示还有多少字节的二进制数据没有发送出去。<br> webSocket.onerror 用于指定报错时的回调函数。<br> 以上api仅简单介绍。详情参照官方<br> <strong><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket" target="_blank" rel="noopener">文档</a></strong></p><h2 id="服务端"><a class="header-anchor" href="#服务端">¶</a>服务端</h2><p>基本上支持网络编程的语言都可以创建webSocket服务,比如java,php,python,node等，网上都有解决方案。<br> 下面是用python写的服务端代码,只用到了一些网络模块,方便熟悉webSocket协议内容和步骤</p><pre><code class="language-python">import simplejson
+import socket
+import sys
+import base64
+import hashlib
+import time
+
+HOST = '127.0.0.1'
+PORT = 9000
+MAGIC_STRING = '258EAFA5-E914-47DA-95CA-C5AB0DC85B11'
+HANDSHAKE_STRING = &quot;HTTP/1.1 101 Switching Protocols\r\n&quot; \
+    &quot;Upgrade:WebSocket\r\n&quot; \
+    &quot;Connection: Upgrade\r\n&quot; \
+    &quot;Sec-WebSocket-Accept: {1}\r\n&quot; \
+    &quot;WebSocket-Location: ws://{2}/chat\r\n&quot; \
+    &quot;WebSocket-Protocol:chat\r\n\r\n&quot;
+
+def parse_data(msg):
+    v = ord(msg[1]) &amp; 0x7f
+    if v == 0x7e:
+        p = 4
+    elif v == 0x7f:
+        p = 10
+    else:
+        p = 2
+
+    mask = msg[p:p+4]
+    data = msg[p+4:]
+
+    return ''.join([chr(ord(v) ^ ord(mask[k%4])) for k, v in enumerate(data)])
+
+def start():
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    try:
+        sock.bind((HOST, PORT))
+        sock.listen(100)
+    except Exception as e:
+        print('bind error')
+        print(e)
+        sys.exit()
+
+    while True:
+        conn, add = sock.accept()
+
+        try:
+            handshake(conn)
+        finally:
+            print('finally')
+            conn.close()
+
+    sock.close()
+    pass
+
+def handshake(conn):
+    headers = {}
+    shake = conn.recv(1024)
+
+    print shake
+
+    if not len(shake):
+        print('len error')
+        return False
+
+    header, data = shake.split('\r\n\r\n', 1)
+    for line in header.split('\r\n')[1:]:
+        key, value = line.split(': ', 1)
+        headers[key] = value
+
+    if 'Sec-WebSocket-Key' not in headers:
+        print('this is not websocket, client close.')
+        print headers
+        conn.close()
+
+        return False
+
+    sec_key = headers['Sec-WebSocket-Key']
+    res_key = base64.b64encode(hashlib.sha1(sec_key + MAGIC_STRING).digest())
+
+    str_handshke = HANDSHAKE_STRING.replace('{1}', res_key).replace('{2}', HOST + &quot;:&quot; + str(PORT))
+    print str_handshke
+
+    conn.send(str_handshke)
+    time.sleep(1)
+    conn.send('%c%c%s' % (0x81, 6, 'suren1'))
+    msg = conn.recv(1024)
+    msg = parse_data(msg)
+    print('msg : ' + msg)
+
+    time.sleep(1)
+    conn.send('%c%c%s' % (0x81, 6, 'suren2'))
+    msg = conn.recv(1024)
+    msg = parse_data(msg)
+    print('msg : ' + msg)
+
+    time.sleep(1)
+    conn.send('%c%c%s' % (0x81, 6, 'suren3'))
+    msg = conn.recv(1024)
+    msg = parse_data(msg)
+    print('msg : ' + msg)
+
+    return True
+
+    pass
+
+if __name__ == '__main__':
+    try:
+        start()
+    except Exception as e:
+        print(e)
+</code></pre><p>参考：<br> （1）<a href="http://www.ruanyifeng.com/blog/2017/05/websocket.html" target="_blank" rel="noopener">WebSocket 教程</a><br> （2）<a href="https://www.zhihu.com/question/20215561" target="_blank" rel="noopener">知乎–WebSocket 是什么原理？为什么可以实现持久连接？</a><br> （3）<a href="https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket" target="_blank" rel="noopener">webApi接口|mdn</a></p></div><div id="gitalk-comment"><div id="gitalk-container"></div><link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"><script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script><script>var gitalk=new Gitalk({clientID:"7047f32466c59bed6274",clientSecret:"50030c1dc4654f2f10f8df23b3a084692a8ce248",repo:"gitTalkBuck",owner:"x1nes",admin:["x1nes"],distractionFreeMode:!1});gitalk.render("gitalk-container")</script></div><style>#gitalk-comment{background-color:#eee;padding:2pc}</style></div><nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col"> <a href="/blog/posts/c475ea5/" id="post_nav-newer" class="prev-content"><button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation"> <i class="material-icons">arrow_back</i></button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 新篇</a><div class="section-spacer"></div> <a href="/blog/posts/2b34be88/" id="post_nav-older" class="next-content">旧篇 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation"> <i class="material-icons">arrow_forward</i></button></a></nav></div></div><script>
+    (function initVisibilitychange() {
+        var title = document.title 
+        var key
+        document.addEventListener('visibilitychange', function() {
+            if(document.visibilityState === 'visible') {
+                document.title = "骗你的~~"
+                key = setTimeout(() => {
+                    document.title = title
+                },1500)
+            }else {
+                clearTimeout(key)
+                document.title = "糟糕~chrome崩溃了~~~"
+            }
+        })
+    })()
+    </script><div class="sidebar-overlay"></div><aside id="sidebar" class="sidebar sidebar-colored sidebar-fixed-left" role="navigation"><div id="sidebar-main"><div class="sidebar-header header-cover" style="background-image:url(/blog/img/sidebar_header.jpg)"><div class="top-bar"></div> <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display:initial" data-upgraded=",MaterialButton,MaterialRipple"> <i class="material-icons">clear_all</i><span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button><div class="sidebar-image"> <img src="/blog/img/avatar.jpeg" alt="x1nes's avatar"></div><a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown"><b class="caret"></b></a></div><ul class="nav sidebar-nav"><li class="dropdown"><ul id="settings-dropdown" class="dropdown-menu"></ul></li><li id="sidebar-first-li"> <a href="/blog/"><i class="material-icons sidebar-material-icons">home</i> 主页</a></li><li class="dropdown"> <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown"><i class="material-icons sidebar-material-icons">inbox</i> 归档<b class="caret"></b></a><ul class="dropdown-menu"><li> <a class="sidebar_archives-link" href="/blog/archives/2021/07/">七月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2021/06/">六月 2021<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2021/05/">五月 2021<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2021/04/">四月 2021<span class="sidebar_archives-count">6</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2021/03/">三月 2021<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2020/12/">十二月 2020<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2019/07/">七月 2019<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2019/06/">六月 2019<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2019/05/">五月 2019<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2019/04/">四月 2019<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/07/">七月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/06/">六月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/05/">五月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/04/">四月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/03/">三月 2018<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/02/">二月 2018<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2018/01/">一月 2018<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2017/10/">十月 2017<span class="sidebar_archives-count">3</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2017/04/">四月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2017/03/">三月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/archives/2017/02/">二月 2017<span class="sidebar_archives-count">1</span></a></li></ul></li><li class="dropdown"> <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown"><i class="material-icons sidebar-material-icons">chrome_reader_mode</i> 分类<b class="caret"></b></a><ul class="dropdown-menu"><li> <a class="sidebar_archives-link" href="/blog/categories/code/">code<span class="sidebar_archives-count">11</span></a></li><li><a class="sidebar_archives-link" href="/blog/categories/javaScript/">javaScript<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/categories/linux/">linux<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/blog/categories/tool/">tool<span class="sidebar_archives-count">2</span></a></li></ul></li><li class="divider"></li><li> <a href="/blog/about" title="关于我"><i class="material-icons sidebar-material-icons">person</i> 关于我</a></li><li> <a href="/blog/tags" title="标签云"><i class="material-icons sidebar-material-icons">label</i> 标签云</a></li><li> <a href="/blog/timeline" title="时间轴"><i class="material-icons sidebar-material-icons">timeline</i> 时间轴</a></li><li> <a href="/blog/gallery" title="相册"><i class="material-icons sidebar-material-icons">photo</i> 相册</a></li><li> <a href="/blog/books" title="书单"><i class="material-icons sidebar-material-icons">books</i> 书单</a></li><li> <a href="/blog/movies" title="电影"><i class="material-icons sidebar-material-icons">movie</i> 电影</a></li><li> <a href="/blog/games" title="游戏"><i class="material-icons sidebar-material-icons">face</i> 游戏</a></li><li> <a href="/blog/links" title="链接"><i class="material-icons sidebar-material-icons">linkify</i> 链接</a></li><li class="divider"></li><li> <a href="/archives">文章总数 <span class="sidebar-badge">47</span></a></li></ul><style>.mdl-card.sidebar-card_friend{padding:20px;width:auto;overflow:hidden;padding-top:10px}.mdl-card.sidebar-card_friend h6{height:28px;line-height:28px;font-weight:400;white-space:nowrap;text-decoration:none;text-align:center;font-size:14px;font-family:Roboto,"Helvetica Neue";margin:0 auto}.mdl-card.sidebar-card_friend a{color:#000;text-decoration-line:none;font-family:Roboto,"Helvetica Neue";width:fit-content;width:-webkit-fit-content;width:-moz-fit-content;white-space:nowrap;word-break:keep-all;margin:8px 4px;font-size:13px}.mdl-card.sidebar-card_friend a:hover{color:#00838f}.mdl-card.sidebar-card_friend a::before{content:"";position:absolute;width:5px;height:5px;border-radius:50%;background-color:#00838f;left:-8px;top:8px}#friend-content{display:flex;align-content:center;flex-wrap:wrap}</style><div class="sidebar-divider"></div><a href="https://github.com/viosey/hexo-theme-material" class="sidebar-footer-text-a" target="_blank"><div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple"> 主题 - Material <span class="sidebar-badge badge-circle">i</span></div></a></div></aside><div id="back-to-top" class="toTop-wrap"> <a href="#top" class="toTop"><i class="material-icons footer_top-i">expand_less</i></a></div><footer class="mdl-mini-footer" id="bottom"><div class="mdl-mini-footer--left-section sns-list"> <a href="https://github.com/x1nes" target="_blank"><button class="mdl-mini-footer--social-btn social-btn footer-sns-github"> <span class="visuallyhidden">Github</span></button></a></div><div id="copyright"> Copyright&nbsp;©&nbsp;<span year></span>&nbsp;simmyo_z的博客</div><div class="mdl-mini-footer--right-section"><div><div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div><div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div></div></div></footer><script>lsloader.load("lazyload_js","/blog/js/lazyload.min.js?wgjW/HuQG9JDgvPDPoRAng==",!0)</script><script>lsloader.load("js_js","/blog/js/js.min.js?zvSPHDkEskkA20yxZY14lg==",!0)</script><script>lsloader.load("np_js","/blog/js/nprogress.js?pl3Qhb9lvqR1FlyLUna1Yw==",!0)</script><script type="text/ls-javascript" id="NProgress-script">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    $('#nprogress .bar').css({
+        'background': '#29d'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #29d, 0 0 15px #29d'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#29d',
+        'border-left-color': '#29d'
+    });
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script><script>lsloader.load("sm_js","/blog/js/smoothscroll.js?j10x2vnLBvyUc9TVmIDKCg==",!0)</script><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script>var agent=navigator.userAgent.toLowerCase();0<agent.indexOf("ucbrowser")&&(document.write('<link rel="stylesheet" href="/blog/css/uc.css">'),alert("由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。"))</script><script>lsloader.load("prettify_js","/blog/js/prettify.min.js?WN07fivHQSMKWy7BmHBB6w==",!0)</script><script type="text/ls-javascript" id="window-load">
+    $(window).on('load', function() {
+        // Post_Toc parent position fixed
+        $('.post-toc-wrap').parent('.mdl-menu__container').css('position', 'fixed');
+    });
+
+    
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
+        
+    
+    
+</script><script type="text/ls-javascript" id="lazy-load">
+    // Offer LazyLoad
+    queue.offer(function(){
+        $('.lazy').lazyload({
+            effect : 'show'
+        });
+    });
+
+    // Start Queue
+    $(document).ready(function(){
+        setInterval(function(){
+            queue.execNext();
+        },200);
+    });
+</script><script>var copyrightNow=(new Date).getFullYear(),textContent=document.querySelector("span[year]");copyrightSince=2017,copyrightSince===copyrightNow||0===copyrightSince?textContent.textContent=copyrightNow:textContent.textContent=copyrightSince+" - "+copyrightNow,function(){for(var t=document.querySelectorAll('script[type="text/ls-javascript"]'),e=0;e<t.length;++e){var o=t[e];lsloader.runInlineScript(o.id,o.id)}}(),console.log("\n %c © Material Theme | Version: 1.5.6 | https://github.com/viosey/hexo-theme-material %c \n","color:#455a64;background:#e0e0e0;padding:5px 0;border-top-left-radius:5px;border-bottom-left-radius:5px;","color:#455a64;background:#e0e0e0;padding:5px 0;border-top-right-radius:5px;border-bottom-right-radius:5px;")</script></main></div><script id="dsq-count-scr" src="//x1nes-1.disqus.com/count.js" async></script><script>"serviceWorker"in navigator&&navigator.serviceWorker.register("sw.js?t=1626711434974").then(function(){console.log("ServiceWorker Register Successfully.")}).catch(function(e){console.error(e)})</script></body></html>
